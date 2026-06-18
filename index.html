@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot para Si Mesmo - Início</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- BARRA SUPERIOR UNIVERSAL -->
+    <header class="navbar">
+        <div class="logo">
+            TAROT
+            <span>PARA SI MESMO</span>
+        </div>
+        <nav>
+            <a href="index.html" class="active">Início</a>
+            <a href="biblioteca.html">Biblioteca</a>
+            <a href="jornada.html">Jornada do Louco</a>
+            <a href="praticar.html">Praticar</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+        <div class="nav-actions">
+            <button class="btn-lua">🌙</button>
+            <button class="btn-topo-destaque" id="btn-trigger-carta-dia">Carta do Dia</button>
+        </div>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="dashboard-container-unico">
+        <section class="layout-hero-novo">
+            <div class="hero-texto-novo">
+                <h1>Aprenda Tarot <br>para Ler para Si Mesmo</h1>
+                <p class="tagline-principal">Uma jornada de autoconhecimento e transformação.</p>
+                <p class="desc-longa">Explore os 22 Arcanos Maiores e descubra como os símbolos, arquétipos e ensinamentos do Tarot podem iluminar sua jornada de individuação, integrar sua sombra e revelar seu verdadeiro potencial.</p>
+                
+                <div class="hero-botoes-novos">
+                    <a href="biblioteca.html" class="btn-hero-ouro">✦ EXPLORAR BIBLIOTECA</a>
+                    <a href="praticar.html" class="btn-hero-transparente">COMEÇAR JORNADA ❯</a>
+                </div>
+
+                <div class="badge-iniciante">
+                    <span> 🂱 Para iniciantes e estudantes do Tarot</span>
+                </div>
+            </div>
+            
+            <!-- CONTAINER DA IMAGEM DO HERO -->
+            <div class="hero-imagem-container">
+                <img src="hero.png" alt="Ilustração de Tarot Terapêutico" class="img-hero-principal">
+            </div>
+        </section>
+
+        <!-- QUADRANTES INFERIORES -->
+        <div class="grid-pilares-inferiores">
+            <div class="card-pilar">
+                <div class="pilar-icone">𓂀</div>
+                <div class="pilar-conteudo">
+                    <h3>ESTUDE</h3>
+                    <p>Aprenda o significado, simbolismo e ensinamentos dos 22 Arcanos Maiores.</p>
+                </div>
+            </div>
+            <div class="card-pilar">
+                <div class="pilar-icone">𖤝</div>
+                <div class="pilar-conteudo">
+                    <h3>REFLITA</h3>
+                    <p>Use o Tarot como ferramenta de autoinvestigação e autoconhecimento.</p>
+                </div>
+            </div>
+            <div class="card-pilar">
+                <div class="pilar-icone">☯</div>
+                <div class="pilar-conteudo">
+                    <h3>TRANSFORME</h3>
+                    <p>Integre luz e sombra, desenvolva sua consciência e viva com mais propósito.</p>
+                </div>
+            </div>
+            <div class="card-pilar">
+                <div class="pilar-icone">ॐ</div>
+                <div class="pilar-conteudo">
+                    <h3>EVOLUA</h3>
+                    <p>Conecte-se com sua jornada de individuação e com a alquimia da alma.</p>
+                </div>
+            </div>
+        </div>
+
+    <!-- CITAÇÃO INFERIOR -->
+        <section class="citacao-final">
+            <p>"O TAROT NÃO PREVÊ O FUTURO. ELE REVELA O QUE VOCÊ PRECISA COMPREENDER PARA CRIÁ-LO."</p>
+            <span class="detalhe-estrela">✦</span>
+        </section>
+    </main>
+
+    <!-- RODAPÉ GLOBAL -->
+    <footer class="footer-global">
+        <div class="footer-conteudo">
+            <div class="footer-logo">
+                <h2>TAROT</h2>
+                <span>PARA SI MESMO</span>
+            </div>
+
+            <p class="footer-texto">
+               ✶ Um espaço de estudoe prática para quem deseja aprender tarot como ferramenta de autoconhecimento.
+            </p>
+
+            <a 
+                href="https://api.whatsapp.com/message/3FDGRERCRU43B1?autoload=1&app_absent=0&utm_source=ig" 
+                target="_blank" 
+                class="btn-footer-whatsapp"
+            >
+                Falar pelo WhatsApp
+            </a>
+
+            <p class="footer-copy">
+                🂾 Todos os direitos reservados.
+                <br>
+                Criado por Amanda Christine Duarte.
+            </p>
+        </div>
+    </footer>
+
+    <!-- MODAL DA CARTA DO DIA (ESTRUTURA GLOBAL) -->
+    <div id="modal-carta-dia" class="modal-overlay">
+        <div class="modal-content painel-leitura">
+            <button class="close-modal" id="btn-fechar-modal">✕</button>
+            <span class="interpretacao-tag">🃏 MENSAGEM DO INCONSCIENTE</span>
+            <h2 id="nome-carta-dia">Sua Carta do Dia</h2>
+            <div class="layout-modal-carta">
+                <div class="moldura-modal-foto" id="foto-carta-dia"></div>
+                <div class="texto-modal-info">
+                    <p id="mensagem-carta-dia">Carregando orientação...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

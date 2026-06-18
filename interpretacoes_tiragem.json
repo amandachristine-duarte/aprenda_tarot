@@ -1,0 +1,397 @@
+{
+  "o-louco": {
+    "passado": {
+      "interpretacao": "Uma fase marcada por impulsividade, liberdade, ingenuidade ou recomeços. Algo importante começou sem garantias, mas permitiu experiências fundamentais para sua evolução.",
+      "reflexao": "Qual decisão do passado exigiu coragem para seguir mesmo sem saber o resultado?",
+      "conselho": "Honre a coragem que teve para iniciar novos caminhos. Nem toda escolha precisa nascer da certeza."
+    },
+    "presente": {
+      "interpretacao": "Você está diante de uma nova possibilidade. A vida pede confiança, abertura ao desconhecido e disposição para experimentar sem controlar todos os detalhes.",
+      "reflexao": "Em qual área da vida você está sendo convidado a confiar mais e controlar menos?",
+      "conselho": "Permita-se dar o próximo passo. A experiência trará as respostas que o planejamento não alcança."
+    },
+    "futuro": {
+      "interpretacao": "Um novo ciclo se aproxima. Mudanças inesperadas, oportunidades ou caminhos inéditos poderão surgir nos próximos meses.",
+      "reflexao": "Que aspecto da sua vida pede renovação e liberdade?",
+      "conselho": "Mantenha-se aberto às possibilidades. O futuro favorece novos começos."
+    }
+  },
+
+  "o-mago": {
+    "passado": {
+      "interpretacao": "Você já desenvolveu recursos, habilidades e aprendizados importantes. Muitas das ferramentas necessárias para sua jornada atual foram construídas anteriormente.",
+      "reflexao": "Quais capacidades adquiridas no passado você ainda subestima?",
+      "conselho": "Reconheça sua competência. Você possui mais recursos internos do que imagina."
+    },
+    "presente": {
+      "interpretacao": "Momento de ação consciente. Sua capacidade de manifestar ideias, organizar recursos e transformar intenção em realidade encontra-se fortalecida.",
+      "reflexao": "O que você deseja criar que depende apenas de sua iniciativa?",
+      "conselho": "Pare de esperar condições perfeitas. Utilize os recursos que já possui."
+    },
+    "futuro": {
+      "interpretacao": "Oportunidades surgirão para colocar seus talentos em prática. Projetos, estudos ou iniciativas poderão ganhar forma concreta.",
+      "reflexao": "Que potencial ainda não está sendo plenamente utilizado?",
+      "conselho": "Prepare-se para agir quando a oportunidade surgir."
+    }
+  },
+
+  "a-sacerdotisa": {
+    "passado": {
+      "interpretacao": "Experiências silenciosas e profundas contribuíram para seu amadurecimento. Houve aprendizados importantes que aconteceram internamente.",
+      "reflexao": "Que sabedoria nasceu dos períodos de silêncio da sua vida?",
+      "conselho": "Valorize aquilo que aprendeu através da observação e da introspecção."
+    },
+    "presente": {
+      "interpretacao": "O momento pede escuta interior. Nem todas as respostas serão encontradas através da lógica. A intuição deseja participar da decisão.",
+      "reflexao": "O que sua intuição está tentando comunicar que sua mente insiste em ignorar?",
+      "conselho": "Diminua o ruído externo e aproxime-se do seu mundo interior."
+    },
+    "futuro": {
+      "interpretacao": "Informações ocultas serão reveladas gradualmente. O futuro favorece autoconhecimento, estudos profundos e desenvolvimento intuitivo.",
+      "reflexao": "Que aspecto da sua verdade ainda está esperando para emergir?",
+      "conselho": "Confie no tempo dos processos internos."
+    }
+  },
+
+  "a-imperatriz": {
+    "passado": {
+      "interpretacao": "Você passou por fases férteis de crescimento, criatividade ou fortalecimento emocional. Algo importante foi nutrido até amadurecer.",
+      "reflexao": "O que você construiu que merece reconhecimento hoje?",
+      "conselho": "Reconheça os frutos que já produziu ao longo da caminhada."
+    },
+    "presente": {
+      "interpretacao": "Momento de expansão, criatividade e abundância. A vida favorece o florescimento de projetos, relacionamentos e talentos pessoais.",
+      "reflexao": "O que deseja cultivar para que cresça nos próximos meses?",
+      "conselho": "Alimente aquilo que deseja ver prosperar."
+    },
+    "futuro": {
+      "interpretacao": "O futuro aponta para crescimento gradual, fertilidade criativa e desenvolvimento saudável de projetos importantes.",
+      "reflexao": "Como você pode preparar terreno para a abundância que deseja manifestar?",
+      "conselho": "Confie no processo de maturação. Nem tudo floresce imediatamente."
+    }
+  },
+
+  "o-imperador": {
+    "passado": {
+      "interpretacao": "Sua história foi marcada por aprendizados ligados à disciplina, responsabilidade, limites e estrutura.",
+      "reflexao": "Que experiências ensinaram você a assumir responsabilidade pela própria vida?",
+      "conselho": "Honre as estruturas que ajudaram a construir sua estabilidade."
+    },
+    "presente": {
+      "interpretacao": "O momento exige organização, clareza e liderança. É hora de assumir posição ativa diante dos desafios.",
+      "reflexao": "Onde sua vida pede mais firmeza e direção?",
+      "conselho": "Crie ordem antes de buscar expansão."
+    },
+    "futuro": {
+      "interpretacao": "O futuro favorece consolidação, estabilidade e construção de bases sólidas para projetos de longo prazo.",
+      "reflexao": "Que estrutura precisa ser construída para sustentar seus objetivos?",
+      "conselho": "Pense a longo prazo e fortaleça os alicerces."
+    }
+  },
+
+"o-hierofante": {
+  "passado": {
+    "interpretacao": "Sua trajetória foi influenciada por tradições, ensinamentos, instituições ou figuras de autoridade. Houve aprendizados importantes recebidos através de mestres, famílias ou sistemas de crenças.",
+    "reflexao": "Quais valores herdados ainda orientam suas escolhas hoje?",
+    "conselho": "Reconheça os ensinamentos que o trouxeram até aqui, mas avalie quais ainda fazem sentido."
+  },
+  "presente": {
+    "interpretacao": "O momento favorece estudos, aprofundamento espiritual e busca por conhecimento estruturado. Há algo importante que precisa ser aprendido antes do próximo passo.",
+    "reflexao": "O que a vida está tentando lhe ensinar neste momento?",
+    "conselho": "Procure sabedoria antes de agir impulsivamente."
+  },
+  "futuro": {
+    "interpretacao": "Novos conhecimentos, mentorias ou caminhos espirituais poderão surgir. O futuro favorece aprendizado e amadurecimento.",
+    "reflexao": "Que conhecimento pode transformar sua visão atual?",
+    "conselho": "Mantenha-se aberto ao aprendizado contínuo."
+  }
+},
+
+"os-enamorados": {
+  "passado": {
+    "interpretacao": "Uma escolha importante influenciou significativamente sua trajetória. Relacionamentos, valores ou decisões do coração moldaram o presente.",
+    "reflexao": "Qual decisão passada continua produzindo efeitos em sua vida?",
+    "conselho": "Honre suas escolhas, mesmo aquelas que trouxeram aprendizados difíceis."
+  },
+  "presente": {
+    "interpretacao": "Você se encontra diante de uma decisão importante. Mais do que escolher entre caminhos externos, trata-se de alinhar-se com seus valores mais profundos.",
+    "reflexao": "O que realmente está em sintonia com sua verdade interior?",
+    "conselho": "Escolha aquilo que fortalece sua integridade."
+  },
+  "futuro": {
+    "interpretacao": "Uma decisão significativa se aproxima. Relacionamentos, parcerias ou escolhas de vida ganharão destaque.",
+    "reflexao": "Você está preparado para assumir as consequências das suas escolhas?",
+    "conselho": "Decida com consciência, não apenas por conveniência."
+  }
+},
+
+"o-carro": {
+  "passado": {
+    "interpretacao": "Você atravessou períodos que exigiram determinação, disciplina e capacidade de superar obstáculos. A força de vontade foi decisiva.",
+    "reflexao": "Quais conquistas só foram possíveis porque você persistiu?",
+    "conselho": "Reconheça sua capacidade de avançar mesmo diante das dificuldades."
+  },
+  "presente": {
+    "interpretacao": "O momento exige foco e direção clara. Há energia disponível para avançar, mas ela precisa ser canalizada de forma consciente.",
+    "reflexao": "Sua energia está direcionada para aquilo que realmente importa?",
+    "conselho": "Escolha uma direção e mantenha-se fiel a ela."
+  },
+  "futuro": {
+    "interpretacao": "O futuro favorece progresso, movimento e conquistas. Objetivos poderão ser alcançados através de disciplina e persistência.",
+    "reflexao": "Que meta merece sua dedicação total?",
+    "conselho": "Continue avançando, mesmo que os resultados ainda não sejam visíveis."
+  }
+},
+
+"a-justica": {
+  "passado": {
+    "interpretacao": "Situações importantes exigiram responsabilidade e prestação de contas. Decisões passadas estão produzindo seus resultados agora.",
+    "reflexao": "Quais consequências atuais nasceram de escolhas antigas?",
+    "conselho": "Aceite o aprendizado contido nos resultados das suas ações."
+  },
+  "presente": {
+    "interpretacao": "O momento pede honestidade consigo mesmo. É hora de avaliar fatos com clareza e assumir responsabilidades sem distorções emocionais.",
+    "reflexao": "Existe alguma verdade que você está evitando encarar?",
+    "conselho": "Seja justo consigo mesmo e com os outros."
+  },
+  "futuro": {
+    "interpretacao": "O futuro favorece equilíbrio, resolução de pendências e colheita dos frutos das ações atuais.",
+    "reflexao": "Que sementes você está plantando hoje?",
+    "conselho": "Aja de forma alinhada aos seus valores."
+  }
+},
+
+"o-eremita": {
+  "passado": {
+    "interpretacao": "Você atravessou um período de introspecção, busca interior ou afastamento necessário para amadurecer emocionalmente.",
+    "reflexao": "O que os períodos de solidão lhe ensinaram sobre si mesmo?",
+    "conselho": "Valorize a sabedoria adquirida através da experiência."
+  },
+  "presente": {
+    "interpretacao": "O momento pede desaceleração, reflexão e escuta interior. Nem todas as respostas serão encontradas no mundo externo.",
+    "reflexao": "O que sua alma está tentando lhe mostrar em silêncio?",
+    "conselho": "Reserve tempo para contemplação e autoconhecimento."
+  },
+  "futuro": {
+    "interpretacao": "O futuro favorece amadurecimento, aprofundamento espiritual e descobertas interiores importantes.",
+    "reflexao": "Que verdade mais profunda deseja emergir em sua consciência?",
+    "conselho": "Confie no ritmo natural do seu processo de crescimento."
+  }
+},
+
+"a-roda-da-fortuna": {
+  "passado": {
+    "interpretacao": "Sua trajetória foi marcada por mudanças inesperadas, ciclos que se encerraram e situações fora do seu controle. Muitos acontecimentos importantes surgiram quando você menos esperava.",
+    "reflexao": "Que mudança inesperada acabou direcionando sua vida para um novo caminho?",
+    "conselho": "Reconheça que nem tudo dependeu exclusivamente das suas escolhas."
+  },
+  "presente": {
+    "interpretacao": "Você está atravessando um período de transição. Circunstâncias externas podem mudar rapidamente, exigindo adaptação e flexibilidade.",
+    "reflexao": "Você está resistindo ou colaborando com as mudanças que a vida apresenta?",
+    "conselho": "Aprenda a dançar com o movimento da vida em vez de lutar contra ele."
+  },
+  "futuro": {
+    "interpretacao": "Mudanças importantes estão se aproximando. Novas oportunidades ou reviravoltas poderão alterar significativamente o cenário atual.",
+    "reflexao": "Como você reage quando perde o controle das circunstâncias?",
+    "conselho": "Permaneça aberto às possibilidades que ainda não consegue prever."
+  }
+},
+
+"a-forca": {
+  "passado": {
+    "interpretacao": "Você já enfrentou situações que exigiram coragem emocional, autocontrole e perseverança. Sua força interior foi desenvolvida através das dificuldades.",
+    "reflexao": "Quais desafios revelaram uma força que você nem sabia possuir?",
+    "conselho": "Lembre-se da capacidade que já demonstrou em momentos difíceis."
+  },
+  "presente": {
+    "interpretacao": "O momento pede firmeza emocional e domínio consciente dos impulsos. A verdadeira força não nasce do controle rígido, mas da integração das emoções.",
+    "reflexao": "Existe alguma emoção que você está tentando dominar em vez de compreender?",
+    "conselho": "Pratique a compaixão consigo mesmo enquanto desenvolve disciplina emocional."
+  },
+  "futuro": {
+    "interpretacao": "Você será chamado a demonstrar maturidade emocional diante de desafios importantes. Sua força interior continuará crescendo.",
+    "reflexao": "Como você pode fortalecer sua estabilidade emocional hoje?",
+    "conselho": "Confie mais na sua capacidade de enfrentar situações difíceis."
+  }
+},
+
+"o-enforcado": {
+  "passado": {
+    "interpretacao": "Houve períodos em que você precisou abrir mão de expectativas, esperar mais do que gostaria ou enxergar a vida sob uma nova perspectiva.",
+    "reflexao": "O que você aprendeu nos momentos em que não podia acelerar os acontecimentos?",
+    "conselho": "Reconheça o valor das pausas e dos processos de maturação."
+  },
+  "presente": {
+    "interpretacao": "O momento pede rendição consciente. Forçar soluções talvez não produza os resultados desejados. Uma nova visão está tentando emergir.",
+    "reflexao": "O que você ganha ao parar de lutar contra aquilo que não pode controlar?",
+    "conselho": "Mude sua perspectiva antes de tentar mudar a realidade."
+  },
+  "futuro": {
+    "interpretacao": "Uma fase de espera, aprendizado ou reavaliação poderá surgir. Nem toda evolução acontece através da ação direta.",
+    "reflexao": "Você consegue confiar no processo mesmo quando não vê resultados imediatos?",
+    "conselho": "Permita que a compreensão amadureça antes de agir."
+  }
+},
+
+"a-morte": {
+  "passado": {
+    "interpretacao": "Transformações profundas já ocorreram em sua vida. Encerramentos, perdas ou mudanças importantes abriram espaço para novos ciclos.",
+    "reflexao": "Qual encerramento foi doloroso, mas acabou sendo necessário para seu crescimento?",
+    "conselho": "Honre os ciclos que precisaram terminar."
+  },
+  "presente": {
+    "interpretacao": "Você está diante de um processo de transformação inevitável. Algo antigo precisa ser deixado para trás para que o novo possa surgir.",
+    "reflexao": "O que já não pertence mais à pessoa que você está se tornando?",
+    "conselho": "Não se apegue ao que já cumpriu seu propósito."
+  },
+  "futuro": {
+    "interpretacao": "Mudanças significativas estão se aproximando. Um ciclo importante tende a se encerrar para permitir renovação e crescimento.",
+    "reflexao": "Você está preparado para liberar aquilo que já não sustenta sua evolução?",
+    "conselho": "Confie no processo de renovação da vida."
+  }
+},
+
+"a-temperanca": {
+  "passado": {
+    "interpretacao": "Você passou por experiências que exigiram adaptação, equilíbrio e integração de diferentes aspectos da sua vida.",
+    "reflexao": "Que aprendizados nasceram da necessidade de encontrar equilíbrio?",
+    "conselho": "Reconheça a sabedoria construída através da moderação."
+  },
+  "presente": {
+    "interpretacao": "O momento favorece harmonização, cura e integração. Aspectos aparentemente opostos podem ser conciliados de forma criativa.",
+    "reflexao": "O que em sua vida pede mais equilíbrio e menos extremos?",
+    "conselho": "Busque o caminho do meio. A integração é mais poderosa que a polarização."
+  },
+  "futuro": {
+    "interpretacao": "O futuro aponta para cura gradual, estabilidade emocional e maior harmonia entre diferentes áreas da vida.",
+    "reflexao": "Como você pode cultivar mais equilíbrio em sua rotina?",
+    "conselho": "Respeite o tempo natural dos processos de cura e amadurecimento."
+  }
+}
+,
+"o-diabo": {
+  "passado": {
+    "interpretacao": "Você passou por situações marcadas por dependências, apegos, medos ou padrões inconscientes que limitaram sua liberdade. Esses vínculos exerceram papel importante em sua formação.",
+    "reflexao": "Que padrão repetitivo continua tentando capturar sua energia?",
+    "conselho": "Observe com honestidade aquilo que ainda o mantém preso."
+  },
+  "presente": {
+    "interpretacao": "O momento pede consciência sobre desejos, compulsões, medos e mecanismos inconscientes. Existe algo que precisa ser visto sem máscaras.",
+    "reflexao": "O que você teme perder caso se torne verdadeiramente livre?",
+    "conselho": "Reconhecer a prisão é o primeiro passo para sair dela."
+  },
+  "futuro": {
+    "interpretacao": "Você será convidado a enfrentar questões ligadas ao poder pessoal, autonomia e libertação de padrões limitantes.",
+    "reflexao": "Que parte da sua vida precisa recuperar autonomia?",
+    "conselho": "Assuma responsabilidade pelas próprias escolhas."
+  }
+},
+
+"a-torre": {
+  "passado": {
+    "interpretacao": "Sua vida já foi marcada por rupturas, perdas de certezas ou acontecimentos que derrubaram estruturas importantes. Apesar da dor, essas mudanças abriram novos caminhos.",
+    "reflexao": "Qual crise acabou revelando uma verdade necessária?",
+    "conselho": "Reconheça a força que surgiu após os momentos de ruptura."
+  },
+  "presente": {
+    "interpretacao": "Uma verdade importante está emergindo. Estruturas frágeis podem estar sendo questionadas para dar lugar a algo mais autêntico.",
+    "reflexao": "Que ilusão precisa ser abandonada para que você possa crescer?",
+    "conselho": "Não resista à verdade apenas porque ela é desconfortável."
+  },
+  "futuro": {
+    "interpretacao": "Mudanças inesperadas poderão desafiar antigas certezas. O futuro favorece libertação, mesmo quando o processo parece caótico.",
+    "reflexao": "Você está construindo sua vida sobre bases sólidas ou sobre expectativas?",
+    "conselho": "Confie que aquilo que é verdadeiro permanecerá."
+  }
+},
+
+"a-estrela": {
+  "passado": {
+    "interpretacao": "Após períodos difíceis, você encontrou momentos de esperança, inspiração e renovação. Essas experiências ajudaram a restaurar sua confiança.",
+    "reflexao": "O que devolveu esperança quando tudo parecia perdido?",
+    "conselho": "Lembre-se das vezes em que a vida mostrou novos caminhos."
+  },
+  "presente": {
+    "interpretacao": "O momento favorece cura emocional, esperança e reconexão com seus sonhos mais autênticos. A vida volta a mostrar possibilidades.",
+    "reflexao": "O que ainda faz seu coração acreditar no futuro?",
+    "conselho": "Permita-se sonhar novamente."
+  },
+  "futuro": {
+    "interpretacao": "O futuro aponta para renovação, inspiração e crescimento gradual. Novas oportunidades surgirão de forma natural.",
+    "reflexao": "Que sonho merece voltar a receber sua energia?",
+    "conselho": "Cultive esperança ativa, não passiva."
+  }
+},
+
+"a-lua": {
+  "passado": {
+    "interpretacao": "Você atravessou períodos de incerteza, confusão emocional ou intensa atividade inconsciente. Muitas respostas ainda estavam ocultas naquele momento.",
+    "reflexao": "O que hoje você compreende melhor do que compreendia naquela época?",
+    "conselho": "Honre os aprendizados adquiridos ao atravessar a escuridão."
+  },
+  "presente": {
+    "interpretacao": "O momento pede cautela com projeções, medos e interpretações precipitadas. Nem tudo é exatamente como parece.",
+    "reflexao": "Existe algum medo influenciando sua percepção da realidade?",
+    "conselho": "Observe antes de concluir. Permita que a névoa se dissipe."
+  },
+  "futuro": {
+    "interpretacao": "Questões emocionais profundas poderão emergir para serem compreendidas. O futuro favorece desenvolvimento intuitivo e autoconhecimento.",
+    "reflexao": "Você está disposto a explorar os territórios desconhecidos da própria psique?",
+    "conselho": "Confie na sua capacidade de atravessar a incerteza."
+  }
+},
+
+"o-sol": {
+  "passado": {
+    "interpretacao": "Momentos de clareza, alegria e autenticidade desempenharam papel importante na sua jornada. Eles mostraram quem você realmente é.",
+    "reflexao": "Quando você se sentiu mais alinhado consigo mesmo?",
+    "conselho": "Recorde-se das experiências que despertaram vitalidade e alegria."
+  },
+  "presente": {
+    "interpretacao": "O momento favorece clareza, confiança e expressão autêntica. A verdade torna-se mais visível e a energia vital aumenta.",
+    "reflexao": "O que acontece quando você permite que sua verdadeira essência apareça?",
+    "conselho": "Mostre-se ao mundo sem esconder quem você é."
+  },
+  "futuro": {
+    "interpretacao": "O futuro aponta para realizações, reconhecimento, crescimento saudável e maior clareza sobre seus objetivos.",
+    "reflexao": "Que aspecto da sua vida está pronto para florescer plenamente?",
+    "conselho": "Permita-se ocupar seu espaço com confiança."
+  }
+}
+,
+"o-julgamento": {
+  "passado": {
+    "interpretacao": "Momentos importantes de despertar já ocorreram em sua vida. Houve situações que o obrigaram a rever antigas escolhas, encarar verdades profundas ou iniciar um processo de renovação interior.",
+    "reflexao": "Que experiência transformou sua forma de enxergar a si mesmo?",
+    "conselho": "Honre os momentos que despertaram sua consciência, mesmo aqueles que foram dolorosos."
+  },
+  "presente": {
+    "interpretacao": "Você está sendo chamado a um novo nível de consciência. É hora de abandonar antigas identidades, perdoar o passado e responder ao chamado da sua verdadeira vocação.",
+    "reflexao": "Que parte de você está pedindo para nascer neste momento?",
+    "conselho": "Pare de viver apenas por hábito. Escute o chamado da sua alma."
+  },
+  "futuro": {
+    "interpretacao": "O futuro favorece libertação, renovação e importantes processos de despertar pessoal. Uma nova fase da vida tende a emergir com mais autenticidade.",
+    "reflexao": "O que você deseja deixar para trás antes de iniciar o próximo ciclo?",
+    "conselho": "Confie na transformação que está acontecendo dentro de você."
+  }
+},
+
+"o-mundo": {
+  "passado": {
+    "interpretacao": "Você já concluiu ciclos importantes que contribuíram para seu crescimento. Cada experiência, desafio e conquista ajudou a construir quem você é hoje.",
+    "reflexao": "Quais realizações merecem ser reconhecidas e celebradas?",
+    "conselho": "Valorize o caminho percorrido e os aprendizados acumulados."
+  },
+  "presente": {
+    "interpretacao": "Você se encontra em um momento de integração. Aspectos antes fragmentados da sua personalidade começam a se harmonizar, trazendo sensação de completude e significado.",
+    "reflexao": "Que partes da sua história estão finalmente encontrando reconciliação?",
+    "conselho": "Permita-se reconhecer sua própria evolução."
+  },
+  "futuro": {
+    "interpretacao": "O futuro aponta para realização, conclusão bem-sucedida de ciclos e expansão da consciência. Um importante processo tende a alcançar maturidade.",
+    "reflexao": "O que significa sentir-se inteiro para você?",
+    "conselho": "Celebre suas conquistas e prepare-se para uma nova espiral de crescimento."
+  }
+}
+}

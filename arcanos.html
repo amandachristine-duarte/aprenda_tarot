@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo dos Arcanos - Tarot para Si Mesmo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">
+        TAROT
+        <span>PARA SI MESMO</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="biblioteca.html">Biblioteca</a>
+        <a href="jornada.html">Jornada do Louco</a>
+        <a href="praticar.html">Praticar</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+
+    <div class="nav-actions">
+        <button class="btn-lua">🌙</button>
+        <button class="btn-topo-destaque" id="btn-trigger-carta-dia">Carta do Dia</button>
+    </div>
+</header>
+
+<main class="pagina-arcanos">
+    <section class="biblioteca-header">
+        <h1>Estudo dos Arcanos Maiores</h1>
+        <p>Conheça os 22 arquétipos do Tarot e seus ensinamentos simbólicos.</p>
+    </section>
+
+    <section id="lista-arcanos" class="lista-arcanos"></section>
+</main>
+    </div>
+
+    <!-- MODAL DA CARTA DO DIA -->
+    <div id="modal-carta-dia" class="modal-overlay">
+        <div class="modal-content painel-leitura">
+
+            <button class="close-modal" id="btn-fechar-modal">✕</button>
+
+            <span class="interpretacao-tag">
+                🃏 MENSAGEM DO INCONSCIENTE
+            </span>
+
+            <h2 id="nome-carta-dia">
+                Sua Carta do Dia
+            </h2>
+
+            <div class="layout-modal-carta">
+
+                <div class="moldura-modal-foto"
+                     id="foto-carta-dia">
+                </div>
+
+                <div class="texto-modal-info">
+                    <p id="mensagem-carta-dia">
+                        Carregando orientação...
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

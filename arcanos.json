@@ -1,0 +1,360 @@
+[
+  {
+    "id": "o-louco",
+    "nome": "O Louco",
+    "numero": 0,
+    "imagem_url": "louco.png",
+    "palavras_chave": ["Potencial Puro", "Fé Cega", "Espontaneidade", "Inconsequência"],
+    "mensagem_central": "O Louco representa o estado pré-consciente, a alma pura que se lança na jornada da existência material sem o peso do passado ou o medo do futuro. Ele é o eterno viajante que confia no fluxo invisível do universo.",
+    "lado_luz": "Coragem inabalável para recomeçar, otimismo cósmico, desapego de padrões rígidos e a liberdade de ser autêntico.",
+    "lado_sombra": "Irresponsabilidade crônica, fuga de compromissos reais, cegueira diante de perigos óbvios e comportamento autodestrutivo.",
+    "processo_alquimico": "O ponto zero da jornada. Simboliza a Materia Prima, a substância caótica e rica em possibilidades que serve de base para a Grande Obra. É a psique em seu estado instintivo, livre das amarras do Ego, pronta para o primeiro passo rumo à diferenciação.",
+    "conselho": "Permita-se zerar as expectativas e adotar a mente de principiante. Dê o salto de fé que a vida está pedindo; o universo sustenta quem tem a coragem de caminhar. Apenas cuidado com atitudes impulsivas ou inconsequentes: aja com maturidade diante de suas escolhas, mas sem perder a leveza do viajante.",
+    "previsao": "Inícios abruptos, caminhos inesperados e a necessidade de tomar decisões sem garantias. O futuro está aberto e depende da sua coragem."
+  },
+  {
+    "id": "o-mago",
+    "nome": "O Mago",
+    "numero": 1,
+    "imagem_url": "mago.png",
+    "palavras_chave": ["Manifestação", "Foco", "Vontade", "Habilidade"],
+    "mensagem_central": "O Mago é o canal consciente entre o sutil e o denso. Ele compreende que a realidade é moldada pela intenção direcionada e que possui todas as ferramentas necessárias para transformar pensamentos em matéria.",
+    "lado_luz": "Poder de manifestação prática, foco mental absoluto, maestria técnica e a capacidade de canalizar ideias elevadas para soluções reais.",
+    "lado_sombra": "Manipulação psicológica, charlatanismo, dispersão de energia em múltiplos projetos e o uso do magnetismo pessoal para enganar os outros.",
+    "processo_alquimico": "O Mago é o início da ação. Na alquimia, ele representa a Separatio (Separação) ou a primeira fase da Solutio/Sublimatio (Sublimação): ele pega a Materia Prima caótica do Louco e, usando os quatro elementos que estão na sua mesa (espada, bastão, taça e moeda), ele separa, organiza e direciona os recursos. Ele é o operador que acende o fogo do laboratório. Na psicologia, simboliza o nascimento do Ego consciente, que começa a discriminar, focar e direcionar a energia psíquica para criar a realidade.",
+    "conselho": "Organize seus recursos e aja. Você já tem o conhecimento e as ferramentas necessárias; pare de planejar e comece a executar.",
+    "previsao": "Período altamente favorável para iniciar negócios, assinar contratos ou direcionar sua energia para metas claras. Sucesso através da ação focada."
+  },
+  {
+    "id": "a-sacerdotisa",
+    "nome": "A Sacerdotisa",
+    "numero": 2,
+    "imagem_url": "sacerdotisa.png",
+    "palavras_chave": ["Intuição", "Mistério", "Subconsciente", "Paciência"],
+    "mensagem_central": "A Sacerdotisa guarda os segredos do inconsciente profundo. Ela não busca respostas no mundo exterior; ela senta-se no limiar da dualidade, esperando que a verdade mature no silêncio do santuário interno.",
+    "lado_luz": "Forte conexão intuitiva, sabedoria ancestral, capacidade de guardar segredos e respeito ao tempo de gestação dos acontecimentos.",
+    "lado_sombra": "Passividade tóxica, frieza afetiva usada como punição, isolamento doentio e recusa em encarar a realidade prática do mundo físico.",
+    "processo_alquimico": "Representa a 'Solutio' (Solução) pela via lunar. A dissolução das certezas rígidas do ego nas águas profundas do inconsciente para revelação do self.",
+    "conselho": "Silencie o barulho da lógica externa. Recolha-se, ouça seus sonhos e confie nos seus pressentimentos antes de tomar qualquer atitude.",
+    "previsao": "Momentos de espera e gestação. Situações que não devem ser forçadas. Revelação de segredos ou verdades ocultas através da intuição."
+  },
+  {
+    "id": "a-imperatriz",
+    "nome": "A Imperatriz",
+    "numero": 3,
+    "imagem_url": "imperatriz.png",
+    "palavras_chave": ["Abundância", "Criatividade", "Nutrição", "Fertilidade"],
+    "mensagem_central": "A Imperatriz é a Grande Mãe, o arquétipo da natureza geradora e do prazer de viver. Ela representa o transbordamento da vida, a criatividade ilimitada e a capacidade de nutrir projetos até que frutifiquem.",
+    "lado_luz": "Generosidade, fertilidade física e mental, conexão com os prazeres sensoriais, amor incondicional e prosperidade material.",
+    "lado_sombra": "Superproteção sufocante, carência afetiva crônica, vaidade excessiva, tirania emocional e desperdício de recursos por indulgência.",
+    "processo_alquimico": "Representa a Cibatio (Cibação), o processo de nutrir e alimentar constantemente a matéria bruta da Grande Obra para que ela ganhe vitalidade e cresça organicamente. Na psicologia, é a fase onde o indivíduo passa a nutrir ativamente seus potenciais criativos inconscientes, dando sustentação emocional e energia para que novas ideias ganhem corpo e floresçam na realidade.",
+    "conselho": "Nutra a si mesmo e aos seus planos com amor e paciência. Permita-se desfrutar do conforto e confie na abundância natural da vida.",
+    "previsao": "Crescimento financeiro, gravidez (física ou de projetos), resolução criativa de problemas e colheita farta de esforços passados."
+  },
+  {
+    "id": "o-imperador",
+    "nome": "O Imperador",
+    "numero": 4,
+    "imagem_url": "imperador.png",
+    "palavras_chave": ["Estrutura", "Ordem", "Autoridade", "Disciplina"],
+    "mensagem_central": "O Imperador estabelece as leis, as fronteiras e a estabilidade no mundo tangível. Ele é a força arquetípica do Pai, que protege o reino criando estruturas sólidas, lógicas e seguras.",
+    "lado_luz": "Liderança justa, capacidade de organização, estabilidade financeira, autodisciplina e proteção firme de quem se ama.",
+    "lado_sombra": "Inflexibilidade mental, tirania autoritária, postura defensiva extrema e medo profundo de demonstrar vulnerabilidade emocional.",
+    "processo_alquimico": "Representa a 'Fixatio' (Fixação). A estabilização do espírito volátil em uma estrutura física rígida, permanente e duradoura.",
+    "conselho": "Coloque ordem na sua rotina e estabeleça limites claros. Use a lógica, a estratégia e a disciplina para assumir o controle da situação. Cuidado com a rigidez e o controle excessivo.",
+    "previsao": "Consolidação de poder, estabilidade profissional, consolidação de bases materiais e o encontro com figuras de autoridade protetoras."
+  },
+  {
+    "id": "o-hierofante",
+    "nome": "O Hierofante",
+    "numero": 5,
+    "imagem_url": "hierofante.png",
+    "palavras_chave": ["Tradição", "Conhecimento", "Valores", "Orientação"],
+    "mensagem_central": "O Hierofante atua como a ponte entre as regras sociais e o significado espiritual. Ele representa a sabedoria institucionalizada, os mentores, os sistemas de crenças e a busca por pertencer a algo maior.",
+    "lado_luz": "Busca por autoconhecimento estruturado, respeito à ética, transmissão generosa de sabedoria e alinhamento com valores nobres.",
+    "lado_sombra": "Dogmatismo cego, hipocrisia moral, apego a rituais vazios de significado e preconceito contra o que foge da norma social.",
+    "processo_alquimico": "Representa a Coagulatio (Coagulação) dos valores universais. É o ato de dar forma física e estruturada às verdades espirituais abstratas através do ritual, do dogma e da filosofia. Na psicologia, simboliza a assimilação das leis sociais e dos arquétipos coletivos pelo Superego, criando uma bússola moral interna que permite ao indivíduo se integrar de forma ética e saudável à sociedade.",
+    "conselho": "Busque orientação de mentores experientes ou estude sistemas de conhecimento consolidados. Alinhe suas ações com sua ética pessoal.",
+    "previsao": "Casamentos, contratos formais, ingressos em cursos, alianças institucionais e a necessidade de seguir os caminhos tradicionais neste momento."
+  },
+  {
+    "id": "os-enamorados",
+    "nome": "Os Enamorados",
+    "numero": 6,
+    "imagem_url": "enamorados.png",
+    "palavras_chave": ["Escolha", "Alinhamento", "Paixão", "Livre-Arbítrio"],
+    "mensagem_central": "Os Enamorados regem as grandes encruzilhadas da alma. Mais do que romance, esta carta fala sobre o livre-arbítrio e o peso de escolher caminhos que definem quem somos, unindo mente e coração.",
+    "lado_luz": "Relações harmoniosas baseadas na verdade, decisões tomadas com o coração alinhado à consciência e integração de polaridades internas.",
+    "lado_sombra": "Dúvida paralisante, dependência emocional, traição dos próprios valores para agradar terceiros e conflitos internos destrutivos.",
+    "processo_alquimico": "Representa a Coniunctio (Conjunção) Inicial, também conhecida como o 'Casamento Menor'. É o vislumbre inicial da união dos opostos alquímicos (o masculino e o feminino). Na psicologia, simboliza o momento em que o Ego reconhece o chamado das suas polaridades internas (Anima/Animus) e se depara com a escolha consciente de integrá-las, unindo razão e emoção para buscar a totalidade.",
+    "conselho": "Não decida apenas pela lógica fria ou pelo impulso cego. Escolha o caminho que vibra em harmonia com os valores mais profundos da sua alma.",
+    "previsao": "Necessidade de tomar uma decisão crucial, surgimento de parcerias afetivas ou profissionais profundas e testes de fidelidade pessoal."
+  },
+  {
+    "id": "o-carro",
+    "numero": 7,
+    "nome": "O Carro",
+    "imagem_url": "carro.png",
+    "palavras_chave": ["Vitória", "Direcionamento", "Foco", "Autodomínio"],
+    "mensagem_central": "O Carro representa o triunfo do ego maduro que consegue domar as forças conflitantes da psique (emoção e razão) e direcioná-las com firmeza rumo a um objetivo claro.",
+    "lado_luz": "Foco inabalável, determinação férrea, superação de obstáculos externos e o controle consciente do próprio destino.",
+    "lado_sombra": "Arrogância cega, ambição desmedida que atropela os outros, impulsividade agressiva e perda completa do controle por falta de rumo.",
+    "processo_alquimico": "Representa a 'Sublimatio' (Sublimação) ativa. A elevação da energia instintiva bruta para o plano da conquista consciente e espiritual.",
+    "conselho": "Assuma as rédeas da sua vida. Defina seu foco, ignore as distrações e avance com confiança, pois o momento exige ação determinada.",
+    "previsao": "Progresso rápido, viagens bem-sucedidas, superação de rivalidades e conquista de metas difíceis através do effort próprio."
+  },
+   {
+    "id": "a-justica",
+    "nome": "A Justiça",
+    "numero": 8,
+    "imagem_url": "justica.png",
+    "palavras_chave": [
+      "Equilíbrio",
+      "Verdade",
+      "Causa e Efeito",
+      "Honestidade"
+    ],
+    "mensagem_central": "A Justiça encara a realidade sem ilusões. Ela simboliza a lei universal do carma: colhemos exatamente o que plantamos. Exige o sopesamento frio e factual de todas as decisões com total autorresponsabilidade.",
+    "lado_luz": "Imparcialidade, clareza mental, integridade moral, capacidade de cortar o que é tóxico e aceitação madura dos fatos da vida.",
+    "lado_sombra": "Julgamento hipercrítico e cruel, punitivismo estéril, frieza racional que ignora os sentimentos e a incapacidade de perdoar os próprios erros.",
+    "processo_alquimico": "Representa a Ponderatio (Ponderação) e a purificação da matéria. É o ajuste exato de pesos e proporções dos elementos no caldeirão para que a obra alcance a estabilidade. Na psicologia, simboliza o momento em que o Ego usa a razão e a ética para cortar as ilusões emocionais, pesando suas ações com total autorresponsabilidade para equilibrar a balança interna entre a consciência e o inconsciente.",
+    "conselho": "Seja rigorosamente honesto consigo mesmo. Avalie a situação com base em fatos, assuma sua parcela de responsabilidade e aja com ética.",
+    "previsao": "Resoluções legais favoráveis (se você agiu corretamente), contratos equilibrados, necessidade de ajuste de contas e retorno cármico de ações passadas."
+  },
+  {
+    "id": "o-eremita",
+    "nome": "O Eremita",
+    "numero": 9,
+    "imagem_url": "eremita.png",
+    "palavras_chave": [
+      "Solitude",
+      "Introspecção",
+      "Prudência",
+      "Sabedoria"
+    ],
+    "mensagem_central": "O Eremita afasta-se do ruído do mundo para caminhar na escuridão, iluminado apenas pela lanterna da própria consciência. Ele representa o amadurecimento psicológico que só a solitude traz.",
+    "lado_luz": "Autoconhecimento profundo, paciência sábia, autonomia emocional e a capacidade de guiar os outros através do próprio exemplo.",
+    "lado_sombra": "Isolamento deprimente, amargura com o mundo, arrogância intelectual e o medo de se abrir para a troca afetiva com o outro.",
+    "processo_alquimico": "Representa a Putrefactio (Putrefação) interna, o início da fase Nigredo (Obra em Negro). É o lento apodrecimento das ilusões do Ego no silêncio do vaso alquímico fechado. Na psicologia, simboliza o recolhimento profundo e doloroso da noite escura da alma, onde o desapego do mundo externo é necessário para decompor o homem velho e preparar a matéria psíquica para renascer.",
+    "conselho": "Recolha-se temporariamente. Não tenha medo da solitude; use este momento para digerir suas experiências e encontrar suas próprias respostas.",
+    "previsao": "Período de ritmo lento, necessidade de pausas, estudos solitários profundos, busca por terapia e respostas que demoram a se manifestar materialmente."
+  },
+  {
+    "id": "a-roda-da-fortuna",
+    "nome": "A Roda da Fortuna",
+    "numero": 10,
+    "imagem_url": "rodafortuna.png",
+    "palavras_chave": [
+      "Mudança",
+      "Ciclos",
+      "Destino",
+      "Adaptabilidade"
+    ],
+    "mensagem_central": "A Roda da Fortuna lembra a psique sobre a inevitável lei da impermanência. Altos e baixos são da natureza da vida terrena; a sabedoria reside em manter-se no centro estável da roda enquanto as bordas giram.",
+    "lado_luz": "Resiliência psicológica, flexibilidade diante do imprevisto, sorte decorrente de oportunidades agarradas e sincronidades positivas.",
+    "lado_sombra": "Ansiedade paralisante frente à instabilidade, resistência teimosa às mudanças necessárias e a ilusão de que se pode controlar o caos mundano.",
+    "processo_alquimico": "Representa a Circulatio (Circulação). É o movimento contínuo de destilação e condensação da substância dentro do balão alquímico, imitando os ciclos da natureza. Na psicologia, simboliza o fluxo dinâmico da energia psíquica entre o consciente e o inconsciente, gerando crises e renascimentos necessários para purificar a mente e ensinar o Ego a se adaptar às marés da vida.",
+    "conselho": "Aceite que este ciclo mudou. Não lute contra as marés do destino; adapte-se com leveza e aproveite o novo movimento do fluxo.",
+    "previsao": "Viradas inesperadas de cenário, golpes de sorte, novos começos financeiros ou profissionais e o encerramento natural de fases antigas."
+  },
+  {
+    "id": "a-forca",
+    "nome": "A Força",
+    "numero": 11,
+    "imagem_url": "forca.png",
+    "palavras_chave": [
+      "Autodomínio",
+      "Coragem Mansa",
+      "Paciência",
+      "Compaixão"
+    ],
+    "mensagem_central": "A Força mostra a integração harmoniosa entre o ego civilizado e os instintos animais primários. Ela não espanca o leão; ela o domestica com carinho, paciência e superioridade moral.",
+    "lado_luz": "Resiliência emocional inabalável, capacidade de acalmar conflitos com doçura, domínio sobre a própria raiva e magnetismo pessoal íntegro.",
+    "lado_sombra": "Explosões de fúria brutal, repressão neurótica dos desejos e impulsos sexuais, ou fraqueza omissa que aceita abusos sem se defender.",
+    "processo_alquimico": "Representa a Domatio (A Domação do Leão Verde). Na alquimia clássica, o Leão Verde simboliza a matéria em seu estado bruto, ácido e voraz de instinto puro. O operador da obra deve domesticar essa fera sem destruí-la, canalizando sua força. Na psicologia, retrata o momento exato em que o Ego maduro não reprime e nem é devorado pelas forças do id e da libido (os instintos primitivos); em vez disso, ele integra e pacifica a própria natureza animal primordial através da inteligência emocional, convertendo impulsos selvagens em resiliência consciente.",
+    "conselho": "Não use a violência ou a agressividade. Domine a situação através da inteligência emocional, da persistência mansa e da firmeza de caráter.",
+    "previsao": "Processos potentes de cura e vitalidade para o corpo físico ou emocional, reconciliação de conflitos antigos através do diálogo e vitória moral duradoura sobre desafios complexos."
+  },
+  {
+    "id": "o-enforcado",
+    "nome": "O Enforcado",
+    "numero": 12,
+    "imagem_url": "pendurado.png",
+    "palavras_chave": [
+      "Perspectiva",
+      "Sacrifício",
+      "Pausa",
+      "Rendição"
+    ],
+    "mensagem_central": "O Enforcado representa a paralisia voluntária do ego para que a alma possa ver o mundo sob outro ângulo. É o arquétipo do sacrifício consciente em prol de um entendimento espiritual superior.",
+    "lado_luz": "Iluminação através da aceitação do momento, desapego do controle egóico, paciência mística e a capacidade de inverter lógicas rígidas.",
+    "lado_sombra": "Complexo de mártir injustiçado, estagnação por medo de agir, autossabotagem por carência afetiva e submissão masoquista a sofrimentos inúteis.",
+    "processo_alquimico": "Representa a Suspensio (Suspensão) associada à Mortificatio. É o estágio técnico onde a matéria fica retida no ar, imóvel, aguardando que o excesso de umidade evapore pelo calor brando. Na psicologia, simboliza o sacrifício voluntário do controle do Ego. O indivíduo aceita a paralisia e a suspensão do mundo externo para que as ilusões e os excessos emocionais evaporem, permitindo uma inversão completa de perspectiva que traz a iluminação espiritual.",
+    "conselho": "Pare de lutar contra os atrasos. Entregue-se à pausa compulsória que a vida impôs e use este tempo para mudar completamente sua forma de pensar.",
+    "previsao": "Atrasos temporários em processos e paralisia forçada de planos, necessidade de abrir mão de algo no momento, período de lentidão que necessita de entrega e rendição, obstáculos e impedimentos, necessidade de enxergar as coisas por outro ângulo, sacrifícios."
+  },
+  {
+    "id": "a-morte",
+    "nome": "A Morte",
+    "numero": 13,
+    "imagem_url": "morte.png",
+    "palavras_chave": [
+      "Transformação",
+      "Encerramento",
+      "Renascimento",
+      "Desapego"
+    ],
+    "mensagem_central": "A Morte é a ceifadora das estruturas desgastadas que impedem o fluxo da vida. Ela não destrói a essência; ela remove a casca velha para que o terreno psíquico fique limpo para o renascimento.",
+    "lado_luz": "Coragem para finalizar ciclos falidos, libertação de amarras emocionais do passado, transformações radicais benéficas e renovação celular.",
+    "lado_sombra": "Apego doentio a cadáveres emocionais, resistência desesperada ao luto inevitável, medo obsessivo da mudança e depressão por estagnação.",
+    "processo_alquimico": "Representa a Cineratio (Redução a Cinzas), o estágio definitivo da Nigredo. É a pulverização e a queima completa dos resíduos biológicos da matéria antiga até que restem apenas cinzas puras. Na psicologia, simboliza a morte estrutural e irrevogável do homem velho e de seus velhos padrões de identidade. O Ego perde sua casca rígida e é reduzido a cinzas para que a energia psíquica (a libido), antes presa a complexos do passado, seja totalmente libertada.",
+    "conselho": "Deixe ir o que já morreu. Pare de tentar ressuscitar situações ou dinâmicas falidas e permita que o ciclo se encerre com dignidade.",
+    "previsao": "Cortes definitivos, desfechos radicais e encerramento irreversível de ciclos, fins de relacionamentos desgastados e mudanças drásticas de estilo de vida, hábitos, relacionamentos, situações, moradia ou padrões de comportamento, Rupturas profissionais ou afetivas que, embora dolorosas, limpam o terreno para o novo, transformações necessárias para abrir espaço para o novo."
+  },
+  {
+    "id": "a-temperanca",
+    "nome": "A Temperança",
+    "numero": 14,
+    "imagem_url": "temperanca.png",
+    "palavras_chave": [
+      "Alquimia",
+      "Moderação",
+      "Equilíbrio",
+      "Harmonização"
+    ],
+    "mensagem_central": "A Temperança faz fluir as energias da vida entre dois cálices, misturando opostos com precisão e suavidade. Ela representa a cura psíquica que ocorre através da paciência e da integração alquímica.",
+    "lado_luz": "Moderação de impulsos, paz de espírito, reconciliação diplomática, saúde física equilibrada e a alquimia diária de transformar crises em paz.",
+    "lado_sombra": "Vida morna e sem paixão presa na zona de conforto, desperdício crônico de energia vital por indecisão e falta de posicionamento firme.",
+    "processo_alquimico": "Representa a Distillatio (Destilação). É a purificação contínua do líquido através do calor brando, gota a gota, separando o sutil do denso até atingir a máxima pureza. Na psicologia, simboliza o processo de maturação da psique após uma grande crise (Morte). O indivíduo destila suas experiências, filtrando as emoções brutas para extrair a sabedoria essencial, gerando um estado interno de paz, temperança e equilíbrio.",
+    "conselho": "Tenha calma e aja com moderação. O momento não pede extremos nem radicalismos; বুকে o caminho do meio e dê tempo ao tempo.",
+    "previsao": "Processos de cura gradual e recuperação de enfermidades físicas ou mentais, pacificação de ambientes tensos, reconciliações amorosas tranquilas, fluxo harmonioso dos acontecimentos cotidianos, necessidade de manter a calma e a tranquilidade."
+  },
+   {
+    "id": "o-diabo",
+    "nome": "O Diabo",
+    "numero": 15,
+    "imagem_url": "diabo.png",
+    "palavras_chave": [
+      "Sombra",
+      "Apego",
+      "Vitalidade",
+      "Ilusão"
+    ],
+    "mensagem_central": "O Diabo encara o indivíduo com suas amarras mais densas: os vícios, as projeções inconscientes e as paixões materiais. Contudo, as correntes estão soltas; a prisão dura apenas enquanto o ego preferir a ilusão.",
+    "lado_luz": "Poderoso magnetismo pessoal, alta energia vital e sexual, ambição financeira saudável e o despertar da lucidez ao integrar as próprias sombras.",
+    "lado_sombra": "Obsessões destrutivas, vícios materiais ou sexuais, dependência emocional cega, manipulação oculta e o papel de carrasco ou escravo numa relação.",
+    "processo_alquimico": "Representa a descida ao Tartarus e o confronto com o Enxofre (Sulfur) bruto. Na alquimia, o enxofre é o princípio do fogo, das paixões vulcânicas e dos desejos ardentes que, quando impuros, aprisionam a matéria. Na psicologia, simboliza o confronto direto e visceral com a Sombra Coletiva e o Id. O indivíduo é forçado a encarar suas pulsões mais densas, segredos, taras e obsessões egoicas, reconhecendo que essa mesma força telúrica e destrutiva, se for conscientizada e limpa, se transforma em pura energia vital e poder de realização.",
+    "conselho": "Encare seus desejos ocultos e dependências sem julgamento moralista. Assuma o controle de sua força vital e liberte-se das prisões mentais.",
+    "previsao": "Entrada rápida de recursos financeiros ou oportunidades de lucro ambiciosas, Forte magnetismo, atração sexual intensa e paixões avassaladoras, vícios, obssessões e apego ou dependência, ciúmes, ódio, inveja, excesso de materialidade e individualismo (egoismo), testes severos de integridade moral e o perigo de cair em ciladas por pura ambição desmedida."
+  },
+  {
+    "id": "a-torre",
+    "nome": "A Torre",
+    "numero": 16,
+    "imagem_url": "torre.png",
+    "palavras_chave": [
+      "Ruptura",
+      "Libertação",
+      "Queda",
+      "Revelação"
+    ],
+    "mensagem_central": "A Torre desmorona quando as bases da vida foram erguidas sobre mentiras, orgulho egoico ou falsas seguranças. O raio divino destrói a estrutura rígida para libertar a alma aprisionada no topo.",
+    "lado_luz": "Quebra libertadora de ilusões doentias, catarse emocional saudável, fim abrupto de prisões invisíveis e o retorno forçado à verdade real.",
+    "lado_sombra": "Desespero destrutivo diante das perdas, apego cego aos escombros do passado e colapsos emocionais causados pela recusa em aceitar a realidade.",
+    "processo_alquimico": "Representa a Calcinatio (Calcinação) violenta pelo fogo e a Separatio por impacto. Na alquimia, é a queima súbita e agressiva da matéria para reduzir as falsas estruturas a pó, destruindo o vaso defeituoso que bloqueia o progresso da obra. Na psicologia, simboliza o colapso da inflação do Ego e das defesas neuróticas. É um choque de realidade devastador, mas necessário, que incinera o orgulho, as máscaras sociais (Persona) e as falsas seguranças para resgatar a matéria essencial da alma.",
+    "conselho": "Não tente segurar as paredes que estão caindo. Deixe que a estrutura falsa desmorone e prepare-se para reconstruir sua vida sobre solo firme. Atravesse a crise. Reconstrua-se a partir dos escombros, mas não se apegue ao que já foi destruído.",
+    "previsao": "Rupturas súbitas e inevitáveis, quebra de sociedades, crise intensa, finais dramáticos, inesperados, estruturas que pareciam sólidas mas foram construídas em cima de ilusões ou mentiras caem por terra, choques de realidade necessários."
+  },
+  {
+    "id": "a-estrela",
+    "nome": "A Estrela",
+    "numero": 17,
+    "imagem_url": "estrela.png",
+    "palavras_chave": [
+      "Esperança",
+      "Fé",
+      "Purificação",
+      "Admiração",
+      "Inocência",
+      "Cura"
+    ],
+    "mensagem_central": "A Estrela surge após a tempestade da Torre, derramando águas de cura sobre a terra seca. Ela representa a bússola espiritual da alma, a fé ingênua e bela de que estamos sempre protegidos pelo cosmos.",
+    "lado_luz": "Otimismo realista, vulnerabilidade autêntica sem máscaras de defesa, inspiração artística superior, paz espiritual e processos espontâneos de cura.",
+    "lado_sombra": "Pessimismo crônico, ilusões ingênuas e distantes da realidade, passividade de quem espera milagres do céu sem agir e perda da fé na vida.",
+    "processo_alquimico": "Representa o amanhecer da Albedo (A Obra em Branco) após a escuridão da Nigredo. É a fase da Ablutio (Lavagem), onde as águas puras limpam as cinzas e a fuligem dos processos anteriores, fazendo emergir o brilho da prata e a claridade espiritual. Na psicologia, simboliza o resgate da inocência original e da transparência da alma: livre das defesas e das ilusões infladas do Ego que caíram na Torre, o indivíduo experimenta a paz da consciência limpa e a intuição conectada ao Self.",
+    "conselho": "Dispa-se das defesas e das armaduras de orgulho. Siga a sua estrela guia interna e aja com a certeza de que o universo apoia suas intenções nobres.",
+    "previsao": "Período de paz e alívio após crises, sorte discreta e sincronicidades que clareiam os caminhos, inspiração renovada, conexão com a espiritualidade e a resolução pacífica de problemas complexos."
+  },
+  {
+    "id": "a-lua",
+    "nome": "A Lua",
+    "numero": 18,
+    "imagem_url": "lua.png",
+    "palavras_chave": [
+      "Inconsciente",
+      "Ilusão",
+      "Medo primitivo",
+      "Flutuação"
+    ],
+    "mensagem_central": "A Lua mergulha a psique na noite escura da alma. Sob sua luz pálida, os contornos se confundem e os medos reprimidos emergem das águas profundas do inconsciente, exigindo serem integrados e decifrados.",
+    "lado_luz": "Sensibilidade artística refinada, sonhos lúcidos reveladores, forte intuição psíquica e a coragem de fazer o mergulho terapêutico nas próprias sombras.",
+    "lado_sombra": "Paranoias e fobias sem fundamento real, mentiras e autoengano, instabilidade emocional extrema e o perigo de se perder em ilusões escapistas.",
+    "processo_alquimico": "Representa a Liquefactio (Liquefação) e o confronto com a Luna Philosophica. É a fase final da Albedo, onde a matéria é submetida a um banho de umidade noturna que dissolve as últimas resistências rígidas da forma. Na psicologia, simboliza o mergulho mais profundo do Ego no Inconsciente Coletivo. O indivíduo fica cara a cara com o reino dos sonhos, dos complexos autônomos e dos arquétipos, precisando atravessar essa neblina de projeções e ilusões sem se afogar na própria loucura.",
+    "conselho": "Não tome decisões cruciais enquanto o cenário estiver nebuloso. Encare seus medos internos com maturidade e desconfie das aparências externas.",
+    "previsao": "Período de mal-entendidos, boatos, intrigas ou mentiras no ambiente, oscilações severas de humor, sonhos intensos, processos intensos acontecendo no inconsciente, falta de clareza, coisas ocultas, confusão emocional ou psicologica e a necessidade de terapia para clarear os medos."
+  },
+  {
+    "id": "o-sol",
+    "nome": "O Sol",
+    "numero": 19,
+    "imagem_url": "sol.png",
+    "palavras_chave": [
+      "Clareza",
+      "Vitalidade",
+      "Sucesso",
+      "Alegria"
+    ],
+    "mensagem_central": "O Sol dissipa todas as brumas da Lua, derramando luz, verdade total e calor sobre a existência. É o arquétipo da consciência desperta, da energia vital transbordante e da celebração da inocência recuperada.",
+    "lado_luz": "Clareza mental absoluta, generosidade calorosa, sucesso material legítimo, vitalidade física revigorada e alegria espontânea nas relações.",
+    "lado_sombra": "Egocentrismo infantil, vaidade cega, orgulho inflado que ofusca os outros e a necessidade neurótica de ser o centro das atenções mundanas.",
+    "processo_alquimico": "Representa o amanhecer da Rubedo (A Obra em Vermelho). É o estágio glorioso em que o fogo alquímico transmuta a matéria no Ouro filosofal, fixando o princípio solar do Sulfur (Enxofre) totalmente purificado. Na psicologia, simboliza o nascimento da consciência desperta e integrada. Após sobreviver às ilusões da Lua, o Ego se alinha diretamente com a luz do Self, desfrutando de uma energia vital indestrutível, livre de máscaras (Persona) e em total harmonia com a sua verdade essencial.",
+    "conselho": "Abrace a sua verdade e brilhe sem medo do julgamento. Seja generoso com quem está ao seu redor e celebre suas conquistas cotidianas com alegria.",
+    "previsao": "Alta visibilidade, período ideal para expor projetos, falar em público e assumir posições de liderança, clareza e revelações, sucesso ou conquistas, períodos de alegria nos relacionamentos, vitalidade e superação. Alerta para excessos, vaidade e orgulho!"
+  },
+  {
+    "id": "o-julgamento",
+    "nome": "O Julgamento",
+    "numero": 20,
+    "imagem_url": "julgamento.png",
+    "palavras_chave": [
+      "Chamado",
+      "Redenção",
+      "Despertar",
+      "Perdão"
+    ],
+    "mensagem_central": "O Julgamento evoca o toque da trombeta celestial que desperta os mortos de seus túmulos. Psicologicamente, representa a libertação definitiva das amarras do passado através do perdão profundo e do alinhamento com a vocação da alma.",
+    "lado_luz": "Despertar espiritual profundo, capacidade de perdoar os próprios erros passados, libertação de velhas culpas e o início de uma vida com propósito elevado.",
+    "lado_sombra": "Remorso estéril e autoflagelação mental por erros antigos, recusa teimosa em ouvir o chamado para evoluir e fixação em mágoas familiares antigas.",
+    "processo_alquimico": "Representa a Revivificatio (Revivificação) ou a Ressurreição da Matéria. Na alquimia clássica, é o momento em que o sopro do espírito divino penetra a matéria já purificada pelo fogo solar, trazendo-a de volta à vida sob uma forma imortal e indestrutível. Na psicologia, simboliza o despertar do Self. Após o indivíduo queimar suas ilusões e integrar suas sombras, a psique ressuscita: o homem velho morre definitivamente e a consciência desperta para a sua verdadeira vocação e propósito existencial.",
+    "conselho": "Ouça a voz da sua consciência. Perdoe-se pelo que passou, feche as contas com o passado e assuma a nova postura que a sua alma exige hoje.",
+    "previsao": "Resoluções, veredictos, decisões judiciais finais ou desfechos de situações que se arrastavam há anos. Retornos de assuntos do passado, Reaparecimento de pessoas ou pendências antigas, oferecendo uma chance real de encerramento amigável. Rompimento de padrões repetitivos e disfuncionais que vinham sendo herdados da história familiar. Oportunidades de reescrever uma história ou retomar um projeto antigo sob uma nova e madura postura."
+  },
+  {
+    "id": "o-mundo",
+    "nome": "O Mundo",
+    "numero": 21,
+    "imagem_url": "mundo.png",
+    "palavras_chave": [
+      "Integração",
+      "Plenitude",
+      "Conclusão",
+      "Totalidade"
+    ],
+    "mensagem_central": "O Mundo encerra a grande jornada do herói (ou a jornada do Louco). A dançarina central move-se em perfeita harmonia com o universo, representando a psique plenamente integrada, onde o consciente e o inconsciente operam em absoluta totalidade.",
+    "lado_luz": "Conclusão vitoriosa de grandes ciclos de vida, sensação profunda de pertencimento e paz cósmica, triunfo material e expansão de horizontes.",
+    "lado_sombra": "Sensação de esgotamento físico por carregar o peso do mundo nas costas, recusa em fechar ciclos que já terminaram e a estagnação nas últimas etapas.",
+    "processo_alquimico": "Aqui temos o fechamento de um grande ciclo. Representa a Coniunctio Oppositorum (A Conjunção dos Opostos) e a obtenção da Lapis Philosophorum (A Pedra Filosofal). É o casamento alquímico definitivo, onde todas as polaridades da psique, o masculino e o feminino, o consciente e o inconsciente, se unem em perfeita harmonia. A alma alcança a sua totalidade, transmutando o chumbo da Sombra no ouro do Self. No entanto, nesta espiral evolutiva, esta união sagrada não é um fim estático: ela é o ponto de virada onde o ciclo se renova, preparando o ser para se relançar na jornada.",
+    "conselho": "Comemore o seu sucesso e sinta orgulho de sua trajetória. Integre os aprendizados, aceite com leveza o fechamento natural deste ciclo e prepare-se para colher os louros, mantendo o coração aberto para o que há de vir.",
+    "previsao": "Conclusões de processos, finalizações de contratos ou etapas de vida com a sensação de missão cumprida. Reconhecimento, Período de colheita, validação pública de esforços antigos e consolidação de estabilidade integral. , Oportunidades que ampliam horizontes intelectuais, geográficos (como viagens significadas) ou profissionais. Fluidez natural para encerrar o que é antigo e abrir espaço para novos começos. Etapas ou histórias concluídas com sucesso (passaram por todos os processos necessários)."
+  }
+]

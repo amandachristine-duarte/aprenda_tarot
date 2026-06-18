@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Tarot para Si Mesmo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">
+        TAROT
+        <span>PARA SI MESMO</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="biblioteca.html">Biblioteca</a>
+        <a href="jornada.html">Jornada do Louco</a>
+        <a href="praticar.html">Praticar</a>
+        <a href="quiz.html" class="active">Quiz</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+
+    <div class="nav-actions">
+        <button class="btn-lua">🌙</button>
+        <button class="btn-topo-destaque" id="btn-trigger-carta-dia">Carta do Dia</button>
+    </div>
+</header>
+
+<main class="pagina-quiz">
+
+    <section class="quiz-hero">
+        <span class="subtitulo-arcano">Teste seus conhecimentos</span>
+        <h1>Quiz dos Arcanos Maiores</h1>
+        <p>
+            Responda às perguntas e descubra o quanto você compreendeu sobre os símbolos,
+            arquétipos e mensagens dos Arcanos Maiores.
+        </p>
+    </section>
+
+    <section class="quiz-card">
+
+        <div class="quiz-topo">
+            <span id="quiz-progresso">Pergunta 1 de 10</span>
+            <span id="quiz-pontuacao">Pontuação: 0</span>
+        </div>
+
+        <h2 id="quiz-pergunta">Carregando pergunta...</h2>
+
+        <div id="quiz-opcoes" class="quiz-opcoes"></div>
+
+        <button id="btn-proxima-pergunta" class="btn-hero-ouro" style="display:none;">
+            Próxima Pergunta
+        </button>
+
+        <div id="quiz-resultado" class="quiz-resultado" style="display:none;"></div>
+
+    </section>
+
+</main>
+
+<!-- MODAL DA CARTA DO DIA -->
+<div id="modal-carta-dia" class="modal-overlay">
+    <div class="modal-content painel-leitura">
+        <button class="close-modal" id="btn-fechar-modal">✕</button>
+
+        <span class="interpretacao-tag">🃏 MENSAGEM DO INCONSCIENTE</span>
+
+        <h2 id="nome-carta-dia">Sua Carta do Dia</h2>
+
+        <div class="layout-modal-carta">
+            <div class="moldura-modal-foto" id="foto-carta-dia"></div>
+
+            <div class="texto-modal-info">
+                <p id="mensagem-carta-dia">Carregando orientação...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

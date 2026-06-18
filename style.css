@@ -1,0 +1,1543 @@
+/* ==========================================================================
+   1. CONFIGURAÇÕES GERAIS, PALETA CÓSMICA E RESETS
+   ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d0b14; /* Roxo espacial bem escuro */
+    color: #e0dbec;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Container padrão para centralizar elementos */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* ==========================================================================
+   2. BARRA SUPERIOR UNIVERSAL (NAVBAR)
+   ========================================================================== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #110e1b;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    color: #e0dbec;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.logo span {
+    display: block;
+    font-size: 0.75rem;
+    color: #d4af37; /* Dourado místico */
+    letter-spacing: 2px;
+}
+
+.navbar nav a {
+    color: #cbbfe2;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.navbar nav a:hover, .navbar nav a.active {
+    color: #d4af37;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 0.2rem;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn-lua {
+    background: transparent;
+    border: none;
+    color: #e0dbec;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn-topo-destaque {
+    background-color: transparent;
+    border: 1px solid #d4af37;
+    color: #d4af37;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-topo-destaque:hover {
+    background-color: #d4af37;
+    color: #110e1b;
+}
+
+/* ==========================================================================
+   3. ESTRUTURA DO CONTEÚDO PRINCIPAL (DASHBOARD)
+   ========================================================================== */
+.dashboard-container-unico {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+/* Layout Hero da Página Inicial */
+.layout-hero-novo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-bottom: 4rem;
+}
+
+.hero-texto-novo {
+    flex: 1;
+}
+
+.hero-texto-novo h1 {
+    font-size: 2.8rem;
+    color: #d4af37;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.2);
+}
+
+.tagline-principal {
+    font-size: 1.3rem;
+    color: #cbbfe2;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.desc-longa {
+    color: #a296bd;
+    margin-bottom: 2rem;
+    font-size: 1.05rem;
+}
+
+.hero-botoes-novos {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn-hero-ouro {
+    background-color: #d4af37;
+    color: #110e1b;
+    text-decoration: none;
+    padding: 0.8rem 1.8rem;
+    font-weight: bold;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-hero-ouro:hover {
+    background-color: #f1c40f;
+}
+
+.btn-hero-transparente {
+    border: 1px solid rgba(224, 219, 236, 0.3);
+    color: #e0dbec;
+    text-decoration: none;
+    padding: 0.8rem 1.8rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn-hero-transparente:hover {
+    background-color: rgba(224, 219, 236, 0.05);
+    border-color: #e0dbec;
+}
+
+.badge-iniciante {
+    color: #d4af37;
+    font-size: 0.9rem;
+}
+
+.hero-imagem-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.img-hero-principal {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* ==========================================================================
+   4. SEÇÃO DE PILARES (GRID INFERIOR DA HOME)
+   ========================================================================== */
+.grid-pilares-inferiores {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.card-pilar {
+    background-color: #110e1b;
+    border: 1px solid rgba(212, 175, 55, 0.1);
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.card-pilar:hover {
+    transform: translateY(-5px);
+    border-color: rgba(212, 175, 55, 0.3);
+}
+
+.pilar-icone {
+    font-size: 1.8rem;
+}
+
+.pilar-conteudo h3 {
+    color: #d4af37;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.3rem;
+}
+
+.pilar-conteudo p {
+    color: #a296bd;
+    font-size: 0.9rem;
+}
+
+.rodape-citacao {
+    text-align: center;
+    border-top: 1px solid rgba(224, 219, 236, 0.1);
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.rodape-citacao p {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    color: #cbbfe2;
+}
+
+.detalhe-estrela {
+    color: #d4af37;
+    display: block;
+    margin-top: 0.5rem;
+}
+
+/* ==========================================================================
+   5. DECK DA BIBLIOTECA (GRID DE CARTAS)
+   ========================================================================== */
+.deck-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+    padding: 1rem 0;
+}
+
+/* ==========================================================================
+   6. EFEITO FLIP 3D DA CARTA
+   ========================================================================== */
+.card-perspective {
+    perspective: 1000px;
+    background: transparent;
+    height: 480px;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.card-perspective:hover .card-inner,
+.card-inner.flipped {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 15px;
+    border: 2px solid rgba(212, 175, 55, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+/* Verso com a imagem que você configurou */
+.card-back {
+    background-color: #13111c;
+    background-image: url('fundo_carta.png'); 
+    background-size: cover;
+    background-position: center;
+}
+
+/* Frente da carta */
+.card-front {
+    background-color: #110e1b;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Informações didáticas flutuando sobre a carta */
+.card-info {
+    padding: 1.5rem;
+    background: linear-gradient(to top, #110e1b 85%, transparent);
+    margin-top: -160px;
+    position: relative;
+    z-index: 2;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    color: #d4af37;
+    margin-bottom: 0.5rem;
+}
+
+.keywords-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+}
+
+.badge {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    background-color: rgba(224, 219, 236, 0.1);
+    color: #cbbfe2;
+    border: 1px solid rgba(224, 219, 236, 0.1);
+}
+
+.didactic-section {
+    text-align: left;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    border-top: 1px solid rgba(224, 219, 236, 0.1);
+    padding-top: 0.5rem;
+}
+
+.light-side {
+    color: #7ee7a4;
+    margin-bottom: 0.3rem;
+}
+
+.shadow-side {
+    color: #ff7676;
+    margin-bottom: 0.3rem;
+}
+
+.alchemy-process {
+    color: #9cbbf7;
+    font-style: italic;
+}
+
+/* ==========================================================================
+   7. MODAL DA CARTA DO DIA
+   ========================================================================== */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal-content {
+    background-color: #110e1b;
+    border: 1px solid #d4af37;
+    padding: 2.5rem;
+    border-radius: 12px;
+    position: relative;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 0 30px rgba(212, 175, 55, 0.2);
+}
+
+.close-modal {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: transparent;
+    border: none;
+    color: #e0dbec;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* ==========================================================================
+   8. RESPONSIVIDADE INTERNÍVEL
+   ========================================================================== */
+@media (max-width: 900px) {
+    .layout-hero-novo {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-texto-novo h1 {
+        text-align: center;
+    }
+    .hero-botoes-novos {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .navbar nav a {
+        margin: 0 0.5rem;
+    }
+    .card-perspective {
+        height: 440px;
+    }
+}
+
+/* ==========================================================================
+   12. LAYOUT COM IMAGEM COMPLETA E EXPANDIDA (FOTO INTERATIVA)
+   ========================================================================== */
+.jornada-header-simples {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.infografico-wrapper-real {
+    position: relative;
+    width: 100%;
+    max-width: 1000px; /* Alinha o tamanho máximo para manter a nitidez */
+    margin: 0 auto 4rem auto;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.6);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.imagem-jornada-expandida {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Zonas de clique invisíveis sobre as etapas da imagem */
+.zona-clique {
+    position: absolute;
+    background-color: rgba(212, 175, 55, 0); /* Invisível por padrão */
+    border: 2px dashed transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+}
+
+/* Quando passa o mouse, acende uma bordinha dourada mística indicando que é clicável */
+.zona-clique:hover {
+    background-color: rgba(212, 175, 55, 0.1);
+    border-color: rgba(212, 175, 55, 0.4);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+}
+
+/* COORDENADAS APROXIMADAS DAS 5 ETAPAS EM PORCENTAGEM (%) 
+   Ajuste levemente esses valores (top/left/width) dependendo de onde estão os círculos na sua foto */
+.z-etapa1 { top: 12%; left: 50%; width: 12%; height: 12%; } /* Topo Central */
+.z-etapa2 { top: 38%; left: 80%; width: 12%; height: 12%; } /* Direita Superior */
+.z-etapa3 { top: 78%; left: 68%; width: 12%; height: 12%; } /* Direita Inferior */
+.z-etapa4 { top: 78%; left: 32%; width: 12%; height: 12%; } /* Esquerda Inferior */
+.z-etapa5 { top: 38%; left: 20%; width: 12%; height: 12%; } /* Esquerda Superior */
+
+/* Estilos adicionais para o Modal de Exibição das Cartas */
+.painel-leitura-pratica{
+
+    width:100%;
+    max-width:1000px;
+
+    margin:50px auto;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.02);
+
+    border:1px solid rgba(212,175,55,.15);
+
+    overflow:visible;
+
+    height:auto;
+}
+
+.desc-longa-modal {
+    color: #a296bd;
+    margin: 1rem 0 2rem 0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.subtitulo-cartas {
+    color: #d4af37;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+    padding-bottom: 0.5rem;
+}
+.citacao-final {
+    max-width: 1250px;
+    margin: 70px auto 0;
+    padding: 32px 24px;
+    border-top: 1px solid rgba(222, 188, 63, 0.18);
+    text-align: center;
+}
+
+.citacao-final p {
+    color: #f4e8c1;
+    font-size: 0.95rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 1.8;
+}
+
+.detalhe-estrela {
+    display: block;
+    margin-top: 18px;
+    color: #e0bd34;
+    font-size: 1.2rem;
+}
+
+.footer-global {
+    margin-top: 40px;
+    padding: 55px 24px 35px;
+    border-top: 1px solid rgba(222, 188, 63, 0.22);
+    background: #080711;
+    text-align: center;
+}
+
+.footer-conteudo {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.footer-logo h2 {
+    margin: 0;
+    color: #f5e8c8;
+    font-family: Georgia, serif;
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+}
+
+.footer-logo span {
+    display: block;
+    margin-top: 4px;
+    color: #e0bd34;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.footer-texto {
+    margin: 24px auto;
+    color: #cfc3ff;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+.btn-footer-whatsapp {
+    display: inline-block;
+    margin: 8px 0 28px;
+    padding: 14px 28px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #e0bd34, #b9822e);
+    color: #090713;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn-footer-whatsapp:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(224, 189, 52, 0.22);
+}
+
+.footer-copy {
+    margin: 0;
+    color: #b8acd8;
+    font-size: 0.82rem;
+    line-height: 1.7;
+}
+
+.pagina-arcanos {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 120px 32px 80px;
+}
+
+.biblioteca-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.biblioteca-header h1 {
+    color: #e0bd34;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 2.4rem;
+}
+
+.biblioteca-header p {
+    color: #d8cfff;
+    margin-top: 16px;
+}
+
+.lista-arcanos {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.bloco-arcano-completo {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 42px;
+    padding: 32px;
+    border: 1px solid rgba(224, 189, 52, 0.22);
+    border-radius: 24px;
+    background: rgba(13, 10, 24, 0.85);
+    scroll-margin-top: 120px;
+}
+
+.arcano-completo-img img {
+    width: 100%;
+    border-radius: 18px;
+    border: 1px solid rgba(224, 189, 52, 0.35);
+}
+
+.arcano-completo-info h2 {
+    color: #f4e8c1;
+    font-size: 2.4rem;
+    margin: 10px 0 18px;
+}
+
+.arcano-completo-info h3 {
+    color: #e0bd34;
+    margin-top: 22px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    font-size: 0.85rem;
+}
+
+.arcano-completo-info p {
+    color: #d8cfff;
+    line-height: 1.75;
+}
+
+@media (max-width: 850px) {
+    .bloco-arcano-completo {
+        grid-template-columns: 1fr;
+    }
+
+    .arcano-completo-img {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+}
+.modal-content {
+    max-height: 88vh;
+    overflow-y: auto;
+}
+
+.painel-leitura {
+    width: min(720px, 92vw);
+    padding: 36px;
+}
+
+.layout-modal-carta {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 28px;
+    align-items: start;
+}
+
+.moldura-modal-foto {
+    min-width: 220px;
+    min-height: 340px;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+}
+
+.texto-modal-info {
+    max-height: 60vh;
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+@media (max-width: 700px) {
+    .layout-modal-carta {
+        grid-template-columns: 1fr;
+    }
+
+    .moldura-modal-foto {
+        margin: 0 auto;
+    }
+}
+.pagina-sobre {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 130px 32px 90px;
+}
+
+.sobre-card {
+    display: grid;
+    grid-template-columns: 330px 1fr;
+    gap: 46px;
+    align-items: stretch;
+    padding: 42px;
+    border: 1px solid rgba(224, 189, 52, 0.22);
+    border-radius: 26px;
+    background: radial-gradient(circle at top left, rgba(224, 189, 52, 0.08), transparent 34%),
+                rgba(13, 10, 24, 0.88);
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+}
+
+.sobre-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 32px;
+    border-radius: 22px;
+    border: 1px solid rgba(224, 189, 52, 0.18);
+    background: rgba(7, 6, 14, 0.55);
+    text-align: center;
+}
+
+.circulo-foto {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgba(224, 189, 52, 0.45);
+    box-shadow: 0 0 30px rgba(224, 189, 52, 0.15);
+}
+
+.circulo-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.sobre-etiqueta {
+    color: #e0bd34;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.75rem;
+}
+
+.sobre-perfil h1 {
+    color: #f4e8c1;
+    font-size: 1.8rem;
+    line-height: 1.25;
+}
+
+.sobre-perfil p {
+    color: #cfc3ff;
+}
+
+.sobre-conteudo h2 {
+    color: #f4e8c1;
+    font-size: 2.5rem;
+    line-height: 1.15;
+    margin: 12px 0 24px;
+    font-family: Georgia, serif;
+}
+
+.sobre-conteudo p {
+    color: #d8cfff;
+    line-height: 1.85;
+    margin-bottom: 18px;
+}
+
+.sobre-destaque {
+    margin-top: 28px;
+    padding: 24px;
+    border-left: 3px solid #e0bd34;
+    border-radius: 14px;
+    background: rgba(224, 189, 52, 0.06);
+}
+
+.sobre-destaque h3 {
+    color: #e0bd34;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.sobre-botoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+@media (max-width: 850px) {
+    .sobre-card {
+        grid-template-columns: 1fr;
+        padding: 28px;
+    }
+
+    .sobre-conteudo h2 {
+        font-size: 2rem;
+    }
+}
+.sobre-reflexao-final {
+    margin-top: 32px;
+    padding: 28px;
+    border: 1px solid rgba(224, 189, 52, 0.18);
+    border-radius: 18px;
+    background: rgba(224, 189, 52, 0.05);
+    position: relative;
+}
+
+.sobre-reflexao-final::before {
+    content: "✦";
+    position: absolute;
+    top: -12px;
+    left: 24px;
+    background: #090713;
+    color: #e0bd34;
+    padding: 0 10px;
+    font-size: 1.1rem;
+}
+
+.sobre-reflexao-final p {
+    color: #f4e8c1;
+    font-style: italic;
+    line-height: 1.9;
+    margin-bottom: 14px;
+    font-size: 1.05rem;
+}
+
+.sobre-reflexao-final p:last-child {
+    margin-bottom: 0;
+}
+.sobre-perfil {
+    position: sticky;
+    top: 110px;
+    align-self: start;
+    min-height: auto;
+}
+.timeline-jornada {
+    max-width: 1150px;
+    margin: 80px auto;
+    padding: 0 32px;
+}
+
+.timeline-jornada h2 {
+    color: #e0bd34;
+    font-size: 2rem;
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+#timeline-arcanos {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.arcano-timeline {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 32px;
+    align-items: center;
+    padding: 28px;
+    border: 1px solid rgba(224, 189, 52, 0.22);
+    border-radius: 22px;
+    background: rgba(13, 10, 24, 0.86);
+}
+
+.arcano-timeline img {
+    width: 100%;
+    border-radius: 14px;
+    border: 1px solid rgba(224, 189, 52, 0.35);
+}
+
+.arcano-texto .numero {
+    color: #e0bd34;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+.arcano-texto h3 {
+    color: #f4e8c1;
+    font-size: 2rem;
+    margin: 8px 0 14px;
+}
+
+.arcano-texto p {
+    color: #d8cfff;
+    line-height: 1.8;
+}
+
+@media (max-width: 700px) {
+    .arcano-timeline {
+        grid-template-columns: 1fr;
+    }
+
+    .arcano-timeline img {
+        max-width: 240px;
+        margin: 0 auto;
+    }
+}
+.pagina-jornada {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 120px 32px 90px;
+}
+
+.jornada-hero {
+    display: grid;
+    grid-template-columns: 1.4fr 360px;
+    gap: 48px;
+    align-items: center;
+    margin-bottom: 80px;
+    padding: 46px;
+    border: 1px solid rgba(224, 189, 52, 0.22);
+    border-radius: 28px;
+    background:
+        radial-gradient(circle at top right, rgba(224, 189, 52, 0.13), transparent 32%),
+        rgba(13, 10, 24, 0.88);
+}
+
+.jornada-hero-texto h1 {
+    color: #f4e8c1;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 14px 0 22px;
+    font-family: Georgia, serif;
+}
+
+.jornada-frase {
+    color: #e0bd34 !important;
+    font-size: 1.35rem;
+    font-style: italic;
+}
+
+.jornada-hero-texto p {
+    color: #d8cfff;
+    line-height: 1.85;
+    margin-bottom: 18px;
+}
+
+.jornada-hero-card {
+    padding: 36px;
+    border-radius: 24px;
+    border: 1px solid rgba(224, 189, 52, 0.3);
+    background: rgba(7, 6, 14, 0.72);
+    text-align: center;
+}
+
+.jornada-hero-card span {
+    display: inline-grid;
+    place-items: center;
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    border: 1px solid rgba(224, 189, 52, 0.5);
+    color: #e0bd34;
+    font-size: 2.4rem;
+    font-family: Georgia, serif;
+    margin-bottom: 22px;
+}
+
+.jornada-hero-card h2 {
+    color: #f4e8c1;
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+}
+
+.jornada-hero-card p {
+    color: #d8cfff;
+    line-height: 1.7;
+}
+
+@media (max-width: 850px) {
+    .jornada-hero {
+        grid-template-columns: 1fr;
+        padding: 30px;
+    }
+
+    .jornada-hero-texto h1 {
+        font-size: 2.8rem;
+    }
+}
+.jornada-hero-card{
+    background: linear-gradient(
+        180deg,
+        rgba(212,175,55,0.08),
+        rgba(212,175,55,0.02)
+    );
+
+    border: 1px solid rgba(212,175,55,0.25);
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+}
+
+.jornada-louco-img{
+    width: 220px;
+    max-width: 100%;
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 0 30px rgba(212,175,55,0.15);
+}
+
+.numero-arcano{
+    display: inline-block;
+
+    color: #d4af37;
+
+    font-size: 0.9rem;
+
+    letter-spacing: 3px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.jornada-louco-info h2{
+    color: #d4af37;
+    margin-bottom: 12px;
+}
+
+.jornada-louco-info p{
+    color: #d7d7d7;
+    line-height: 1.8;
+}
+.mini-arcanos-etapa {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.mini-arcanos-etapa img {
+    width: 72px;
+    border-radius: 8px;
+    border: 1px solid rgba(224, 189, 52, 0.35);
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.35);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.mini-arcanos-etapa img:hover {
+    transform: translateY(-6px) scale(1.04);
+    box-shadow: 0 16px 34px rgba(224, 189, 52, 0.18);
+}
+
+.etapa-card{
+    max-width: 900px;
+    margin: 0 auto 50px auto;
+
+    padding: 30px;
+
+    border: 1px solid rgba(224,189,52,.18);
+    border-radius: 20px;
+
+    background: rgba(255,255,255,.02);
+
+    text-align: center;
+}
+
+.mini-arcanos-etapa{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+
+    margin-top:25px;
+}
+.mini-arcano{
+    width:110px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.mini-arcano img{
+    width:110px;
+
+    border-radius:10px;
+
+    border:1px solid rgba(224,189,52,.35);
+
+    transition:.3s;
+}
+
+.mini-arcano img:hover{
+    transform:translateY(-6px) scale(1.03);
+}
+
+.mini-arcano span{
+    margin-top:10px;
+
+    color:#d4af37;
+
+    font-size:.85rem;
+
+    text-align:center;
+
+    line-height:1.3;
+}
+.etapas-jornada > h2 {
+    text-align: center;
+    color: #f4e8c1;
+    font-family: Georgia, serif;
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+    margin-bottom: 42px;
+    position: relative;
+}
+
+.etapas-jornada > h2::after {
+   
+    display: block;
+    color: #e0bd34;
+    font-size: 1.1rem;
+    margin-top: 12px;
+}
+
+.mini-arcano {
+    position: relative;
+}
+
+.mini-arcano img {
+    cursor: pointer;
+}
+
+.mini-arcano span {
+    opacity: 0;
+    transform: translateY(6px);
+    transition: 0.25s ease;
+}
+
+.mini-arcano:hover span {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* ==========================
+   MESA DE TAROT
+========================== */
+
+.mesa-tarot{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    margin-top:50px;
+    flex-wrap:wrap;
+}
+
+.posicao-carta{
+    text-align:center;
+}
+
+.posicao-carta h3{
+    color:#d4af37;
+    margin-bottom:15px;
+    letter-spacing:1px;
+}
+
+.carta{
+    width:180px;
+    height:320px;
+
+    border-radius:16px;
+
+    border:1px solid rgba(212,175,55,.3);
+
+    background:#090612;
+
+    overflow:hidden;
+
+    transition:.4s;
+}
+.verso{
+    background-image:url("fundo_carta.png");
+    background-size:cover;
+    background-position:center;
+}
+.carta img{
+    width:auto;
+    height:100%;
+    max-width:100%;
+    object-fit:contain;
+}
+#btn-nova-tiragem{
+    background:transparent;
+    color:#d4af37;
+
+    border:1px solid rgba(212,175,55,.4);
+
+    padding:16px 28px;
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+#btn-nova-tiragem:hover{
+    background:rgba(212,175,55,.08);
+    border-color:#d4af37;
+}
+.acoes-mesa{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+
+    margin-top:35px;
+    margin-bottom:50px;
+}
+#btn-embaralhar,
+#btn-nova-tiragem{
+
+    min-width:220px;
+
+    height:56px;
+
+    border-radius:12px;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    transition:all .3s ease;
+}
+#btn-nova-tiragem{
+    background:transparent;
+    color:#d4af37;
+
+    border:1px solid rgba(212,175,55,.4);
+}
+
+#btn-nova-tiragem:hover{
+    background:rgba(212,175,55,.08);
+    border-color:#d4af37;
+}
+.bloco-conselho{
+    margin-top:30px;
+    padding:25px;
+
+    border-left:4px solid #d4af37;
+
+    background:rgba(212,175,55,.08);
+
+    border-radius:12px;
+}
+
+.bloco-conselho h3{
+    color:#d4af37;
+    margin-bottom:12px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+
+.bloco-conselho p{
+    font-size:1.05rem;
+    line-height:1.8;
+    color:#f3ead0;
+    font-style:italic;
+}
+.bloco-posicao-leitura {
+    margin-top: 28px;
+    padding: 26px;
+    border: 1px solid rgba(224, 189, 52, 0.18);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.02);
+}
+
+.bloco-posicao-leitura h3 {
+    color: #e0bd34;
+    margin-bottom: 14px;
+}
+
+.bloco-posicao-leitura p {
+    color: #d8cfff;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.destaque-presente {
+    border-color: rgba(224, 189, 52, 0.45);
+    background: rgba(224, 189, 52, 0.06);
+}
+.bloco-reflexao-conselho {
+    margin-top: 24px;
+    padding: 22px;
+    border-left: 3px solid #e0bd34;
+    border-radius: 14px;
+    background: rgba(224, 189, 52, 0.07);
+}
+.secao-tiragens-casa {
+    max-width: 1100px;
+    margin: 80px auto;
+    padding: 0 32px;
+    text-align: center;
+}
+
+.img-tiragens-praticar {
+    width: 100%;
+    border-radius: 24px;
+    border: 1px solid rgba(224, 189, 52, 0.25);
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
+}
+.pagina-quiz {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 130px 32px 90px;
+}
+
+.quiz-hero {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.quiz-hero h1 {
+    color: #f4e8c1;
+    font-family: Georgia, serif;
+    font-size: 3.4rem;
+    margin: 14px 0 18px;
+}
+
+.quiz-hero p {
+    color: #d8cfff;
+    line-height: 1.8;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.quiz-card {
+    padding: 42px;
+    border: 1px solid rgba(224, 189, 52, 0.24);
+    border-radius: 26px;
+    background: radial-gradient(circle at top, rgba(224, 189, 52, 0.08), transparent 40%),
+                rgba(13, 10, 24, 0.88);
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+}
+
+.quiz-topo {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #e0bd34;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-bottom: 28px;
+}
+
+#quiz-pergunta {
+    color: #f4e8c1;
+    font-size: 1.7rem;
+    line-height: 1.4;
+    margin-bottom: 28px;
+}
+
+.quiz-opcoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-bottom: 30px;
+}
+
+.quiz-opcao {
+    padding: 18px 20px;
+    border-radius: 14px;
+    border: 1px solid rgba(224, 189, 52, 0.22);
+    background: rgba(255, 255, 255, 0.03);
+    color: #d8cfff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.quiz-opcao:hover {
+    border-color: rgba(224, 189, 52, 0.55);
+    background: rgba(224, 189, 52, 0.08);
+}
+
+.quiz-opcao.correta {
+    border-color: #7ee7a4;
+    background: rgba(126, 231, 164, 0.13);
+    color: #7ee7a4;
+}
+
+.quiz-opcao.errada {
+    border-color: #ff7676;
+    background: rgba(255, 118, 118, 0.12);
+    color: #ff7676;
+}
+
+.quiz-resultado-final {
+    text-align: center;
+}
+
+.quiz-resultado-final h2 {
+    color: #e0bd34;
+    font-size: 2.4rem;
+    margin: 18px 0;
+}
+
+.quiz-resultado-final p {
+    color: #d8cfff;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+@media (max-width: 700px) {
+    .quiz-opcoes {
+        grid-template-columns: 1fr;
+    }
+
+    .quiz-topo {
+        flex-direction: column;
+    }
+
+    .quiz-hero h1 {
+        font-size: 2.4rem;
+    }
+}
+.instagram-sobre{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+
+    margin-top:14px;
+    padding:10px 18px;
+
+    color:#d4af37;
+    text-decoration:none;
+
+    border:1px solid rgba(212,175,55,.3);
+    border-radius:999px;
+
+    transition:.3s;
+}
+
+.instagram-sobre i{
+    font-size:1.1rem;
+}
+
+.instagram-sobre:hover{
+    background:rgba(212,175,55,.08);
+    border-color:#d4af37;
+    transform:translateY(-2px);
+}
+.instagram-sobre{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+
+    margin-top:12px;
+
+    color:#d4af37;
+    text-decoration:none;
+
+    font-size:0.95rem;
+
+    border:1px solid rgba(212,175,55,.25);
+
+    padding:8px 14px;
+
+    border-radius:999px;
+
+    transition:.3s;
+}
+
+.instagram-sobre:hover{
+    background:rgba(212,175,55,.08);
+    border-color:#d4af37;
+}
+
+.instagram-sobre i{
+    font-size:1rem;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tarot para Si Mesmo - Sobre</title>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">
+        TAROT
+        <span>PARA SI MESMO</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="biblioteca.html">Biblioteca</a>
+        <a href="jornada.html">Jornada do Louco</a>
+        <a href="praticar.html">Praticar</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="sobre.html" class="active">Sobre</a>
+    </nav>
+
+    <div class="nav-actions">
+        <button class="btn-lua">🌙</button>
+        <button class="btn-topo-destaque" id="btn-trigger-carta-dia">Carta do Dia</button>
+    </div>
+</header>
+
+<main class="pagina-sobre">
+    <section class="sobre-card">
+
+        <div class="sobre-perfil">
+            <div class="circulo-foto">
+    <img src="amanda.jpg" alt="Amanda Christine Duarte">
+</div>
+            <span class="sobre-etiqueta">Criadora do projeto</span>
+            <h1>Amanda C. Duarte</h1>
+            <p>Terapeuta Integrativa</p>
+            <a href="https://instagram.com/duarterapeuta"
+   target="_blank"
+   class="instagram-sobre">
+
+    @duarterapeuta
+
+</a>
+        </div>
+
+        <div class="sobre-conteudo">
+            <span class="subtitulo-arcano">Sobre a plataforma</span>
+
+            <h2>Tarot como espelho simbólico da consciência</h2>
+
+            <p>
+                Esta plataforma foi criada para apresentar o Tarot como uma ferramenta de estudo,
+                reflexão e autoinvestigação. Aqui, os Arcanos Maiores são compreendidos como imagens
+                simbólicas que ajudam a organizar experiências internas, reconhecer padrões e ampliar
+                a consciência sobre a própria jornada.
+            </p>
+
+            <p>
+                A proposta não é tratar o Tarot apenas como previsão do futuro, mas como uma linguagem
+                arquetípica capaz de favorecer perguntas mais profundas sobre escolhas, ciclos,
+                sombra, amadurecimento e individuação.
+            </p>
+
+            <div class="sobre-destaque">
+                <h3>Base de inspiração</h3>
+                <p>
+                    O conteúdo dialoga com a Psicologia Analítica Junguiana, a simbologia dos arquétipos,
+                    processos de autoconhecimento e a Alquimia mental.<b>
+                    Carl Jung compreendeu que a mente humana é habitada por um território vasto chamado Inconsciente Coletivo. 
+                   </b> Nele, residem os Arquétipos: moldes universais de comportamento, energia e emoção que todos nós compartilhamos.
+                    Os 22 arcanos maiores do tarô nada mais são do que a representação visual e simbólica desses arquétipos. 
+                
+                </p>
+            </div>
+           
+            <div class="sobre-reflexao-final">
+
+    <p>
+        Você está prestes a se tornar o alquimista da sua própria história.
+    </p>
+
+    <p>
+        Prepare o seu baralho, respire fundo e permita-se olhar para o espelho da sua alma.
+        A sua jornada de individuação começa com a próxima carta que você virar.
+    </p>
+
+</div>
+            <div class="sobre-botoes">
+                <a href="biblioteca.html" class="btn-hero-ouro">Explorar Biblioteca</a>
+                <a href="jornada.html" class="btn-hero-transparente">Ver Jornada do Louco</a>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+<!-- MODAL DA CARTA DO DIA -->
+<div id="modal-carta-dia" class="modal-overlay">
+    <div class="modal-content painel-leitura">
+
+        <button class="close-modal" id="btn-fechar-modal">✕</button>
+
+        <span class="interpretacao-tag">
+            🃏 MENSAGEM DO INCONSCIENTE
+        </span>
+
+        <h2 id="nome-carta-dia">
+            Sua Carta do Dia
+        </h2>
+
+        <div class="layout-modal-carta">
+
+            <div class="moldura-modal-foto" id="foto-carta-dia"></div>
+
+            <div class="texto-modal-info">
+                <p id="mensagem-carta-dia">
+                    Carregando orientação...
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

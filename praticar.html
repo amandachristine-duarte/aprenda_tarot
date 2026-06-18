@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticar - Tarot para Si Mesmo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">
+        TAROT
+        <span>PARA SI MESMO</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="biblioteca.html">Biblioteca</a>
+        <a href="jornada.html">Jornada do Louco</a>
+        <a href="praticar.html" class="active">Praticar</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+
+    <div class="nav-actions">
+        <button class="btn-lua">🌙</button>
+        <button class="btn-topo-destaque" id="btn-trigger-carta-dia">
+            Carta do Dia
+        </button>
+    </div>
+</header>
+
+<main class="dashboard-container-unico">
+
+    <section class="hero-praticar">
+
+        <span class="subtitulo-arcano">
+            VAMOS PRATICAR
+        </span>
+
+        <h1>Tiragem básica</h1>
+
+        <p>
+           <p>
+O Tarot não responde por você.
+Ele amplia aquilo que já busca emergir da sua consciência.
+
+Embaralhe os Arcanos e observe quais símbolos desejam dialogar com sua jornada neste momento.
+</p>
+        </p>
+
+    </section>
+
+    <section class="mesa-tarot">
+
+        <div class="posicao-carta">
+            <h3>Passado</h3>
+            <div id="carta-passado" class="carta verso"></div>
+        </div>
+
+        <div class="posicao-carta">
+            <h3>Presente</h3>
+            <div id="carta-presente" class="carta verso"></div>
+        </div>
+
+        <div class="posicao-carta">
+            <h3>Futuro</h3>
+            <div id="carta-futuro" class="carta verso"></div>
+        </div>
+
+    </section>
+
+    <div class="acoes-mesa">
+
+        <button id="btn-embaralhar"
+                class="btn-hero-ouro">
+            ✦ Embaralhar Cartas
+        </button>
+
+        <button id="btn-nova-tiragem"
+                class="btn-hero-transparente">
+            Nova Tiragem
+        </button>
+
+    </div>
+
+    <section id="painel-leitura"
+             class="painel-leitura-pratica"
+             style="display:none;">
+
+        <h2 id="nome-carta-revelada"></h2>
+
+        <div id="texto-reflexao"></div>
+
+        <div id="container-tags"></div>
+
+    </section>
+
+</main>
+
+<section class="secao-tiragens-casa">
+    <img 
+        src="tiragens-praticar.png" 
+        alt="Três tiragens simples para praticar Tarot em casa"
+        class="img-tiragens-praticar"
+    >
+</section>
+
+<footer class="footer-global">
+    <div class="footer-conteudo">
+
+        <a href="https://api.whatsapp.com/message/3FDGRERCRU43B1?autoload=1&app_absent=0&utm_source=ig"
+           target="_blank"
+           class="btn-footer-whatsapp">
+            Falar pelo WhatsApp
+        </a>
+
+        <p class="footer-copy">
+            © 2026 Tarot para Si Mesmo.
+            <br>
+            Criado por Amanda Christine Duarte.
+        </p>
+
+    </div>
+</footer>
+
+<!-- MODAL CARTA DO DIA -->
+<div id="modal-carta-dia" class="modal-overlay">
+    <div class="modal-content painel-leitura">
+
+        <button class="close-modal" id="btn-fechar-modal">✕</button>
+
+        <span class="interpretacao-tag">
+            🃏 MENSAGEM DO INCONSCIENTE
+        </span>
+
+        <h2 id="nome-carta-dia">
+            Sua Carta do Dia
+        </h2>
+
+        <div class="layout-modal-carta">
+
+            <div class="moldura-modal-foto"
+                 id="foto-carta-dia">
+            </div>
+
+            <div class="texto-modal-info">
+                <p id="mensagem-carta-dia">
+                    Carregando orientação...
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
